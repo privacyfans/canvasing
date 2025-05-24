@@ -1,0 +1,12 @@
+@layer base {
+  .animate-shimmer {
+    animation: shimmer 3s ease-out infinite;
+  }
+
+  @keyframes shimmer {
+    100% {
+      transform: translateX(0%);
+      opacity: 0;
+    }
+  }
+}

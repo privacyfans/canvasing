@@ -1,0 +1,13 @@
+@layer components {
+  .swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+    @apply !size-3 !bg-white !border-[3px] !border-green-500;
+  }
+
+  .swiper-pagination .swiper-pagination-bullet {
+    @apply !size-3 !bg-green-500 !border-[3px] !border-green-500;
+  }
+
+  .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    @apply !bg-white !border-green-500;
+  }
+}

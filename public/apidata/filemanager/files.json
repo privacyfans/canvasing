@@ -1,0 +1,50 @@
+[
+  {
+    "id": 2,
+    "image": "/assets/images/file-manager/icons/pdf.png",
+    "type": "pdf",
+    "documentName": "Company of Certificate",
+    "size": "2.7 MB",
+    "lastEdit": "29 June, 2024"
+  },
+  {
+    "id": 3,
+    "image": "/assets/images/file-manager/icons/power.png",
+    "type": "ppt",
+    "documentName": "Hospital Management",
+    "size": "154 MB",
+    "lastEdit": "21 June, 2024"
+  },
+  {
+    "id": 4,
+    "image": "/assets/images/file-manager/icons/picture.png",
+    "type": "PNG",
+    "documentName": "Preview Images",
+    "size": "983 KB",
+    "lastEdit": "14 June, 2024"
+  },
+  {
+    "id": 5,
+    "image": "/assets/images/file-manager/icons/mp3.png",
+    "type": "MP3",
+    "documentName": "Sound Effects",
+    "size": "14.9 MB",
+    "lastEdit": "24 May, 2024"
+  },
+  {
+    "id": 6,
+    "image": "/assets/images/file-manager/icons/csv-file.png",
+    "type": "CSV",
+    "documentName": "Contact-list",
+    "size": "651 KB",
+    "lastEdit": "18 May, 2024"
+  },
+  {
+    "id": 7,
+    "image": "/assets/images/file-manager/icons/office.png",
+    "type": "Docs",
+    "documentName": "Admin Bugs",
+    "size": "1.9 MB",
+    "lastEdit": "07 May, 2024"
+  }
+]

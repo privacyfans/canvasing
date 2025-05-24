@@ -1,0 +1,624 @@
+[
+  {
+    "id": 1,
+    "projectId": "PEP-22697",
+    "projectImage": "/assets/images/brands/img-01.png",
+    "image": "/assets/images/avatar/user-1.png",
+    "projectName": "Chat Application",
+    "clientName": "John Doe",
+    "dueDate": "15 June, 2024",
+    "totalAmount": "$18,000",
+    "assignees": [
+      {
+        "image": "/assets/images/avatar/user-14.png",
+        "name": "Max Boucaut"
+      },
+      {
+        "image": "/assets/images/avatar/user-16.png",
+        "name": "Ethan Zahel"
+      }
+    ],
+    "progress": "18",
+    "status": "Active"
+  },
+  {
+    "id": 2,
+    "projectId": "PEP-22698",
+    "projectImage": "/assets/images/brands/img-02.png",
+    "image": "/assets/images/avatar/user-2.png",
+    "projectName": "E-commerce Platform",
+    "clientName": "Jane Smith",
+    "dueDate": "25 July, 2024",
+    "totalAmount": "$25,000",
+    "assignees": [
+      {
+        "image": "/assets/images/avatar/user-17.png",
+        "name": "Poppy Dalley"
+      },
+      {
+        "image": "/assets/images/avatar/user-15.png",
+        "name": "Natasha Tegg"
+      },
+      {
+        "image": "/assets/images/avatar/user-19.png",
+        "name": "Sam Taylor"
+      }
+    ],
+    "progress": "41",
+    "status": "On Hold"
+  },
+  {
+    "id": 3,
+    "projectId": "PEP-22699",
+    "projectImage": "/assets/images/brands/img-03.png",
+    "image": "/assets/images/avatar/user-3.png",
+    "projectName": "Corporate Website",
+    "clientName": "ABC Corp",
+    "dueDate": "30 May, 2024",
+    "totalAmount": "$10,000",
+    "assignees": [
+      {
+        "image": "/assets/images/avatar/user-16.png",
+        "name": "Ethan Zahel"
+      },
+      {
+        "image": "/assets/images/avatar/user-12.png",
+        "name": "Julian Marconi"
+      }
+    ],
+    "progress": "75",
+    "status": "Pending"
+  },
+  {
+    "id": 4,
+    "projectId": "PEP-22700",
+    "projectImage": "/assets/images/brands/img-04.png",
+    "image": "/assets/images/avatar/user-4.png",
+    "projectName": "Mobile App",
+    "clientName": "XYZ Ltd",
+    "dueDate": "10 Aug, 2024",
+    "totalAmount": "$30,000",
+    "assignees": [
+      {
+        "image": "/assets/images/avatar/user-17.png",
+        "name": "Poppy Dalley"
+      },
+      {
+        "image": "/assets/images/avatar/user-18.png",
+        "name": "Ryan Frazer"
+      },
+      {
+        "image": "/assets/images/avatar/user-14.png",
+        "name": "Max Boucaut"
+      }
+    ],
+    "progress": "59",
+    "status": "Active"
+  },
+  {
+    "id": 5,
+    "projectId": "PEP-22701",
+    "projectImage": "/assets/images/brands/img-05.png",
+    "image": "/assets/images/avatar/user-5.png",
+    "projectName": "Digital Marketing",
+    "clientName": "Marketing Inc",
+    "dueDate": "5 Sept, 2024",
+    "totalAmount": "$15,000",
+    "assignees": [
+      {
+        "image": "/assets/images/avatar/user-13.png",
+        "name": "Ava Bennett"
+      }
+    ],
+    "progress": "100",
+    "status": "Completed"
+  },
+  {
+    "id": 6,
+    "projectId": "PEP-22702",
+    "projectImage": "/assets/images/brands/img-06.png",
+    "image": "/assets/images/avatar/user-6.png",
+    "projectName": "SEO Optimization",
+    "clientName": "Tech Solutions",
+    "dueDate": "20 June, 2024",
+    "totalAmount": "$12,000",
+    "assignees": [
+      {
+        "image": "/assets/images/avatar/user-15.png",
+        "name": "Natasha Tegg"
+      },
+      {
+        "image": "/assets/images/avatar/user-18.png",
+        "name": "Ryan Frazer"
+      }
+    ],
+    "progress": "50",
+    "status": "Active"
+  },
+  {
+    "id": 7,
+    "projectId": "PEP-22703",
+    "projectImage": "/assets/images/brands/img-07.png",
+    "image": "/assets/images/avatar/user-7.png",
+    "projectName": "Social Media Campaign",
+    "clientName": "Brandify",
+    "dueDate": "10 July, 2024",
+    "totalAmount": "$8,000",
+    "assignees": [
+      {
+        "image": "/assets/images/avatar/user-12.png",
+        "name": "Julian Marconi"
+      },
+      {
+        "image": "/assets/images/avatar/user-18.png",
+        "name": "Ryan Frazer"
+      },
+      {
+        "image": "/assets/images/avatar/user-14.png",
+        "name": "Max Boucaut"
+      }
+    ],
+    "progress": "30",
+    "status": "On Hold"
+  },
+  {
+    "id": 8,
+    "projectId": "PEP-22704",
+    "projectImage": "/assets/images/brands/img-08.png",
+    "image": "/assets/images/avatar/user-8.png",
+    "projectName": "API Integration",
+    "clientName": "DevHouse",
+    "dueDate": "5 Aug, 2024",
+    "totalAmount": "$20,000",
+    "assignees": [
+      {
+        "image": "/assets/images/avatar/user-17.png",
+        "name": "Poppy Dalley"
+      },
+      {
+        "image": "/assets/images/avatar/user-16.png",
+        "name": "Ethan Zahel"
+      }
+    ],
+    "progress": "60",
+    "status": "Pending"
+  },
+  {
+    "id": 9,
+    "projectId": "PEP-22705",
+    "projectImage": "/assets/images/brands/img-09.png",
+    "image": "/assets/images/avatar/user-9.png",
+    "projectName": "Data Analysis",
+    "clientName": "DataWorks",
+    "dueDate": "15 May, 2024",
+    "totalAmount": "$25,000",
+    "assignees": [
+      {
+        "image": "/assets/images/avatar/user-11.png",
+        "name": "Lucas Griffin"
+      },
+      {
+        "image": "/assets/images/avatar/user-18.png",
+        "name": "Ryan Frazer"
+      },
+      {
+        "image": "/assets/images/avatar/user-16.png",
+        "name": "Ethan Zahel"
+      }
+    ],
+    "progress": "80",
+    "status": "Active"
+  },
+  {
+    "id": 10,
+    "projectId": "PEP-22706",
+    "projectImage": "/assets/images/brands/img-10.png",
+    "image": "/assets/images/avatar/user-10.png",
+    "projectName": "AI Model Development",
+    "clientName": "AI Innovators",
+    "dueDate": "1 Sept, 2024",
+    "totalAmount": "$50,000",
+    "assignees": [
+      {
+        "image": "/assets/images/avatar/user-11.png",
+        "name": "Lucas Griffin"
+      }
+    ],
+    "progress": "100",
+    "status": "Completed"
+  },
+  {
+    "id": 11,
+    "projectId": "PEP-22707",
+    "projectImage": "/assets/images/brands/img-11.png",
+    "image": "/assets/images/avatar/user-11.png",
+    "projectName": "Cloud Migration",
+    "clientName": "Cloudy Inc.",
+    "dueDate": "20 Oct, 2024",
+    "totalAmount": "$35,000",
+    "assignees": [
+      {
+        "image": "/assets/images/avatar/user-12.png",
+        "name": "Julian Marconi"
+      },
+      {
+        "image": "/assets/images/avatar/user-15.png",
+        "name": "Natasha Tegg"
+      }
+    ],
+    "progress": "70",
+    "status": "Active"
+  },
+  {
+    "id": 12,
+    "projectId": "PEP-22708",
+    "projectImage": "/assets/images/brands/img-12.png",
+    "image": "/assets/images/avatar/user-12.png",
+    "projectName": "Cybersecurity Audit",
+    "clientName": "SecureIT",
+    "dueDate": "30 June, 2024",
+    "totalAmount": "$22,000",
+    "assignees": [
+      {
+        "image": "/assets/images/avatar/user-18.png",
+        "name": "Ryan Frazer"
+      },
+      {
+        "image": "/assets/images/avatar/user-17.png",
+        "name": "Poppy Dalley"
+      },
+      {
+        "image": "/assets/images/avatar/user-16.png",
+        "name": "Ethan Zahel"
+      }
+    ],
+    "progress": "65",
+    "status": "On Hold"
+  },
+  {
+    "id": 13,
+    "projectId": "PEP-22709",
+    "projectImage": "/assets/images/brands/img-13.png",
+    "image": "/assets/images/avatar/user-13.png",
+    "projectName": "Blockchain Development",
+    "clientName": "BlockTech",
+    "dueDate": "15 July, 2024",
+    "totalAmount": "$40,000",
+    "assignees": [
+      {
+        "image": "/assets/images/avatar/user-14.png",
+        "name": "Max Boucaut"
+      },
+      {
+        "image": "/assets/images/avatar/user-19.png",
+        "name": "Sam Taylor"
+      }
+    ],
+    "progress": "50",
+    "status": "Active"
+  },
+  {
+    "id": 14,
+    "projectId": "PEP-22710",
+    "projectImage": "/assets/images/brands/img-14.png",
+    "image": "/assets/images/avatar/user-14.png",
+    "projectName": "VR Training Program",
+    "clientName": "Immersive Learning",
+    "dueDate": "1 Nov, 2024",
+    "totalAmount": "$55,000",
+    "assignees": [
+      {
+        "image": "/assets/images/avatar/user-11.png",
+        "name": "Lucas Griffin"
+      },
+      {
+        "image": "/assets/images/avatar/user-13.png",
+        "name": "Ava Bennett"
+      }
+    ],
+    "progress": "40",
+    "status": "Active"
+  },
+  {
+    "id": 15,
+    "projectId": "PEP-22711",
+    "projectImage": "/assets/images/brands/img-15.png",
+    "image": "/assets/images/avatar/user-15.png",
+    "projectName": "Customer Portal",
+    "clientName": "CustomerFirst",
+    "dueDate": "5 Dec, 2024",
+    "totalAmount": "$28,000",
+    "assignees": [
+      {
+        "image": "/assets/images/avatar/user-12.png",
+        "name": "Julian Marconi"
+      },
+      {
+        "image": "/assets/images/avatar/user-14.png",
+        "name": "Max Boucaut"
+      },
+      {
+        "image": "/assets/images/avatar/user-18.png",
+        "name": "Ryan Frazer"
+      }
+    ],
+    "progress": "100",
+    "status": "Completed"
+  },
+  {
+    "id": 16,
+    "projectId": "PEP-22712",
+    "projectImage": "/assets/images/brands/img-16.png",
+    "image": "/assets/images/avatar/user-16.png",
+    "projectName": "IoT Implementation",
+    "clientName": "SmartHome",
+    "dueDate": "15 Jan, 2025",
+    "totalAmount": "$60,000",
+    "assignees": [
+      {
+        "image": "/assets/images/avatar/user-17.png",
+        "name": "Poppy Dalley"
+      },
+      {
+        "image": "/assets/images/avatar/user-11.png",
+        "name": "Lucas Griffin"
+      }
+    ],
+    "progress": "25",
+    "status": "Active"
+  },
+  {
+    "id": 17,
+    "projectId": "PEP-22713",
+    "projectImage": "/assets/images/brands/img-17.png",
+    "image": "/assets/images/avatar/user-17.png",
+    "projectName": "Marketing Automation",
+    "clientName": "MarketPro",
+    "dueDate": "25 Feb, 2025",
+    "totalAmount": "$15,000",
+    "assignees": [
+      {
+        "image": "/assets/images/avatar/user-15.png",
+        "name": "Natasha Tegg"
+      }
+    ],
+    "progress": "55",
+    "status": "On Hold"
+  },
+  {
+    "id": 18,
+    "projectId": "PEP-22714",
+    "projectImage": "/assets/images/brands/img-18.png",
+    "image": "/assets/images/avatar/user-18.png",
+    "projectName": "ERP System",
+    "clientName": "Enterprise Solutions",
+    "dueDate": "10 March, 2025",
+    "totalAmount": "$75,000",
+    "assignees": [
+      {
+        "image": "/assets/images/avatar/user-19.png",
+        "name": "Sam Taylor"
+      },
+      {
+        "image": "/assets/images/avatar/user-20.png",
+        "name": "Jordan Fisher"
+      }
+    ],
+    "progress": "60",
+    "status": "Pending"
+  },
+  {
+    "id": 19,
+    "projectId": "PEP-22715",
+    "projectImage": "/assets/images/brands/img-19.png",
+    "image": "/assets/images/avatar/user-19.png",
+    "projectName": "HR Management System",
+    "clientName": "HR Innovate",
+    "dueDate": "20 April, 2025",
+    "totalAmount": "$38,000",
+    "assignees": [
+      {
+        "image": "/assets/images/avatar/user-11.png",
+        "name": "Lucas Griffin"
+      },
+      {
+        "image": "/assets/images/avatar/user-12.png",
+        "name": "Julian Marconi"
+      },
+      {
+        "image": "/assets/images/avatar/user-13.png",
+        "name": "Ava Bennett"
+      }
+    ],
+    "progress": "88",
+    "status": "Active"
+  },
+  {
+    "id": 20,
+    "projectId": "PEP-22716",
+    "projectImage": "/assets/images/brands/img-20.png",
+    "image": "/assets/images/avatar/user-20.png",
+    "projectName": "Financial Analysis Tool",
+    "clientName": "Finance Experts",
+    "dueDate": "1 May, 2025",
+    "totalAmount": "$29,000",
+    "assignees": [
+      {
+        "image": "/assets/images/avatar/user-16.png",
+        "name": "Ethan Zahel"
+      },
+      {
+        "image": "/assets/images/avatar/user-14.png",
+        "name": "Max Boucaut"
+      }
+    ],
+    "progress": "100",
+    "status": "Completed"
+  },
+  {
+    "id": 21,
+    "projectId": "PEP-22717",
+    "projectImage": "/assets/images/brands/img-21.png",
+    "image": "/assets/images/avatar/user-21.png",
+    "projectName": "Machine Learning Model",
+    "clientName": "DataScience Inc.",
+    "dueDate": "10 June, 2025",
+    "totalAmount": "$55,000",
+    "assignees": [
+      {
+        "image": "/assets/images/avatar/user-11.png",
+        "name": "Lucas Griffin"
+      },
+      {
+        "image": "/assets/images/avatar/user-15.png",
+        "name": "Natasha Tegg"
+      }
+    ],
+    "progress": "45",
+    "status": "Active"
+  },
+  {
+    "id": 22,
+    "projectId": "PEP-22718",
+    "projectImage": "/assets/images/brands/img-22.png",
+    "image": "/assets/images/avatar/user-22.png",
+    "projectName": "Website Redesign",
+    "clientName": "Creative Design",
+    "dueDate": "20 July, 2025",
+    "totalAmount": "$20,000",
+    "assignees": [
+      {
+        "image": "/assets/images/avatar/user-13.png",
+        "name": "Ava Bennett"
+      },
+      {
+        "image": "/assets/images/avatar/user-16.png",
+        "name": "Ethan Zahel"
+      }
+    ],
+    "progress": "60",
+    "status": "Pending"
+  },
+  {
+    "id": 23,
+    "projectId": "PEP-22719",
+    "projectImage": "/assets/images/brands/img-23.png",
+    "image": "/assets/images/avatar/user-23.png",
+    "projectName": "Mobile Game Development",
+    "clientName": "Game Studio",
+    "dueDate": "5 Aug, 2025",
+    "totalAmount": "$70,000",
+    "assignees": [
+      {
+        "image": "/assets/images/avatar/user-19.png",
+        "name": "Sam Taylor"
+      },
+      {
+        "image": "/assets/images/avatar/user-18.png",
+        "name": "Ryan Frazer"
+      },
+      {
+        "image": "/assets/images/avatar/user-14.png",
+        "name": "Max Boucaut"
+      }
+    ],
+    "progress": "75",
+    "status": "Active"
+  },
+  {
+    "id": 24,
+    "projectId": "PEP-22720",
+    "projectImage": "/assets/images/brands/img-24.png",
+    "image": "/assets/images/avatar/user-24.png",
+    "projectName": "Data Migration",
+    "clientName": "Cloud Storage",
+    "dueDate": "15 Sept, 2025",
+    "totalAmount": "$25,000",
+    "assignees": [
+      {
+        "image": "/assets/images/avatar/user-12.png",
+        "name": "Julian Marconi"
+      },
+      {
+        "image": "/assets/images/avatar/user-11.png",
+        "name": "Lucas Griffin"
+      }
+    ],
+    "progress": "50",
+    "status": "On Hold"
+  },
+  {
+    "id": 25,
+    "projectId": "PEP-22721",
+    "projectImage": "/assets/images/brands/img-25.png",
+    "image": "/assets/images/avatar/user-25.png",
+    "projectName": "Product Launch",
+    "clientName": "Marketing Agency",
+    "dueDate": "30 Oct, 2025",
+    "totalAmount": "$35,000",
+    "assignees": [
+      {
+        "image": "/assets/images/avatar/user-16.png",
+        "name": "Ethan Zahel"
+      },
+      {
+        "image": "/assets/images/avatar/user-14.png",
+        "name": "Max Boucaut"
+      },
+      {
+        "image": "/assets/images/avatar/user-13.png",
+        "name": "Ava Bennett"
+      }
+    ],
+    "progress": "65",
+    "status": "Active"
+  },
+  {
+    "id": 26,
+    "projectId": "PEP-22722",
+    "projectImage": "/assets/images/brands/img-26.png",
+    "image": "/assets/images/avatar/user-26.png",
+    "projectName": "Inventory Management System",
+    "clientName": "Retail Solutions",
+    "dueDate": "10 Nov, 2025",
+    "totalAmount": "$40,000",
+    "assignees": [
+      {
+        "image": "/assets/images/avatar/user-19.png",
+        "name": "Sam Taylor"
+      },
+      {
+        "image": "/assets/images/avatar/user-12.png",
+        "name": "Julian Marconi"
+      }
+    ],
+    "progress": "100",
+    "status": "Completed"
+  },
+  {
+    "id": 27,
+    "projectId": "PEP-22723",
+    "projectImage": "/assets/images/brands/img-27.png",
+    "image": "/assets/images/avatar/user-27.png",
+    "projectName": "Custom CRM Development",
+    "clientName": "SalesPro",
+    "dueDate": "25 Dec, 2025",
+    "totalAmount": "$45,000",
+    "assignees": [
+      {
+        "image": "/assets/images/avatar/user-14.png",
+        "name": "Max Boucaut"
+      },
+      {
+        "image": "/assets/images/avatar/user-15.png",
+        "name": "Natasha Tegg"
+      },
+      {
+        "image": "/assets/images/avatar/user-17.png",
+        "name": "Poppy Dalley"
+      }
+    ],
+    "progress": "80",
+    "status": "Active"
+  }
+]

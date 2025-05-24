@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Swan Song",
+    "author": "David Grann",
+    "image": "/assets/images/school/book/img-01.jpg",
+    "rating": 5,
+    "reviewCount": 98,
+    "price": 47.99,
+    "type": "Popular Book"
+  },
+  {
+    "id": 2,
+    "title": "The Wager: A Tale of Shipwreck, Mutiny and Murder",
+    "author": "Elin Hilderbrand",
+    "image": "/assets/images/school/book/img-02.jpg",
+    "rating": 5,
+    "reviewCount": 147,
+    "price": 29.99,
+    "type": "Best Sales"
+  },
+  {
+    "id": 3,
+    "title": "The Friday Afternoon Club: A Family Memoir",
+    "author": "Griffin Dunne",
+    "image": "/assets/images/school/book/img-03.jpg",
+    "rating": 4.5,
+    "reviewCount": 213,
+    "price": 30,
+    "type": "Newest"
+  },
+  {
+    "id": 4,
+    "title": "Not in Love",
+    "author": "Ali Hazelwood",
+    "image": "/assets/images/school/book/img-04.jpg",
+    "rating": 4.5,
+    "reviewCount": 97,
+    "price": 17.99,
+    "type": "Newest"
+  },
+  {
+    "id": 5,
+    "title": "This Summer Will Be Different",
+    "author": "Carley Fortune",
+    "image": "/assets/images/school/book/img-05.jpg",
+    "rating": 4.5,
+    "reviewCount": 179,
+    "price": 21,
+    "type": "Popular Book"
+  },
+  {
+    "id": 6,
+    "title": "Reckless",
+    "author": "Lauren Roberts",
+    "image": "/assets/images/school/book/img-06.jpg",
+    "rating": 4.5,
+    "reviewCount": 236,
+    "price": 39.99,
+    "type": "Best Sales"
+  },
+  {
+    "id": 7,
+    "title": "Evenings and Weekends: A Novel",
+    "author": "Oisín McKenna",
+    "image": "/assets/images/school/book/img-07.jpg",
+    "rating": 3.5,
+    "reviewCount": 46,
+    "price": 21.49,
+    "type": "Oldest"
+  },
+  {
+    "id": 8,
+    "title": "One Dark Window",
+    "author": "Rachel Gillig",
+    "image": "/assets/images/school/book/img-08.jpg",
+    "rating": 3.5,
+    "reviewCount": 74,
+    "price": 49.99,
+    "type": "Oldest"
+  },
+  {
+    "id": 9,
+    "title": "Two Twisted Crowns",
+    "author": "Rachel Gillig",
+    "image": "/assets/images/school/book/img-09.jpg",
+    "rating": 5,
+    "reviewCount": 39,
+    "price": 17.49,
+    "type": "Newest"
+  },
+  {
+    "id": 10,
+    "title": "All the Colors of the Dark",
+    "author": "Chris Whitaker",
+    "image": "/assets/images/school/book/img-10.jpg",
+    "rating": 5,
+    "reviewCount": 798,
+    "price": 33.49,
+    "type": "Popular Book"
+  },
+  {
+    "id": 11,
+    "title": "Hexed",
+    "author": "Emily McIntire",
+    "image": "/assets/images/school/book/img-11.jpg",
+    "rating": 5,
+    "reviewCount": 465,
+    "price": 14.67,
+    "type": "Popular Book"
+  },
+  {
+    "id": 12,
+    "title": "The Creative Act: A Way of Being",
+    "author": "Rick Rubin",
+    "image": "/assets/images/school/book/img-12.jpg",
+    "rating": 5,
+    "reviewCount": 341,
+    "price": 25.32,
+    "type": "Best Sales"
+  }
+]

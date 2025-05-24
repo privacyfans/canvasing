@@ -1,0 +1,32 @@
+export const routes = [
+  { path: '/auth/account-deactivation-basic', title: 'Account Deactivation' },
+  {
+    path: '/auth/account-deactivation-creative',
+    title: 'Account Deactivation',
+  },
+  { path: '/auth/account-deactivation-modern', title: 'AccountDeactivation' },
+  { path: '/auth/forgot-password-basic', title: 'Forgot Password' },
+  { path: '/auth/forgot-password-creative', title: 'Forgot Password' },
+  { path: '/auth/forgot-password-modern', title: 'Forgot Password' },
+  { path: '/auth/reset-password-basic', title: 'Reset Password' },
+  { path: '/auth/reset-password-creative', title: 'Reset Password' },
+  { path: '/auth/reset-password-modern', title: 'Reset Password' },
+  { path: '/auth/signin-basic', title: 'SignIn' },
+  { path: '/auth/signin-creative', title: 'SignIn' },
+  { path: '/auth/signin-modern', title: 'SignIn' },
+  { path: '/auth/signup-basic', title: 'SignUp' },
+  { path: '/auth/signup-creative', title: 'SignUp' },
+  { path: '/auth/signup-modern', title: 'SignUp' },
+  {
+    path: '/auth/two-step-verification-creative',
+    title: 'Two Step Verification',
+  },
+  {
+    path: '/auth/two-step-verification-modern',
+    title: 'Two Step Verification',
+  },
+  { path: '/auth/two-step-verification-basic', title: 'Two Step Verification' },
+  { path: '/auth/successful-password-basic', title: 'Successful Password' },
+  { path: '/auth/successful-password-creative', title: 'Successful Password' },
+  { path: '/auth/successful-password-modern', title: 'Successful Password' },
+]

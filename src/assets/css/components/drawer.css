@@ -1,0 +1,33 @@
+@layer components {
+  [drawer-start] {
+    @apply ltr:left-0 rtl:right-0;
+  }
+
+  [drawer-start].show {
+    @apply rtl:translate-x-full ltr:-translate-x-full;
+  }
+
+  [drawer-end] {
+    @apply ltr:right-0 rtl:left-0;
+  }
+
+  [drawer-end].show {
+    @apply ltr:translate-x-full rtl:-translate-x-full;
+  }
+
+  [drawer-bottom] {
+    @apply inset-x-0 !h-80 w-full bottom-0 !top-auto;
+  }
+
+  [drawer-bottom].show {
+    @apply translate-y-full;
+  }
+
+  [drawer-top] {
+    @apply inset-x-0 !h-80 w-full;
+  }
+
+  [drawer-top].show {
+    @apply -translate-y-full;
+  }
+}

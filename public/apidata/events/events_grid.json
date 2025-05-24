@@ -1,0 +1,281 @@
+[
+  {
+    "id": 1,
+    "name": "Tech Innovations Summit",
+    "username": "Declan Grieve",
+    "price": "$499.00",
+    "day": "sun",
+    "date": "19 May 2024",
+    "time": "10:00 am",
+    "location": "San Francisco, CA",
+    "image": "/assets/images/avatar/user-5.png",
+    "mainImage": "/assets/images/event/img-01.jpg",
+    "contributors": [
+      {
+        "image": "/assets/images/avatar/user-5.png",
+        "name": "Declan Grieve"
+      },
+      {
+        "image": "/assets/images/avatar/user-20.png",
+        "name": "Callum Burston"
+      },
+      {
+        "image": "/assets/images/avatar/user-13.png",
+        "name": "Liam White"
+      }
+    ],
+
+    "peopleSize": "1200",
+    "eventType": "Offline",
+    "status": "Expired"
+  },
+  {
+    "id": 2,
+    "name": "Health and Wellness Expo",
+    "username": "Callum Burston",
+    "price": "$290.00",
+    "day": "Mon",
+    "date": " 24 Jun 2024",
+    "time": "09:00",
+    "location": "New York, NY",
+    "image": "/assets/images/avatar/user-20.png",
+    "mainImage": "/assets/images/event/img-02.jpg",
+    "contributors": [
+      {
+        "image": "/assets/images/avatar/user-20.png",
+        "name": "Callum Burston"
+      },
+      {
+        "image": "/assets/images/avatar/user-5.png",
+        "name": "Declan Grieve"
+      }
+    ],
+    "peopleSize": "800",
+    "eventType": "Offline",
+    "status": "Published"
+  },
+  {
+    "id": 3,
+    "name": "Marketing Conference",
+    "username": "Sophia Adams",
+    "day": "Mon",
+    "price": "$379.00",
+    "date": "15 Jul 2024",
+    "time": "13:30",
+    "location": "Los Angeles, CA",
+    "image": "/assets/images/avatar/user-10.png",
+    "mainImage": "/assets/images/event/img-03.jpg",
+    "contributors": [
+      {
+        "image": "/assets/images/avatar/user-10.png",
+        "name": "Sophia Adams"
+      },
+      {
+        "image": "/assets/images/avatar/user-15.png",
+        "name": "Ethan Thompson"
+      }
+    ],
+    "peopleSize": "1500",
+    "eventType": "Online",
+    "status": "Coming Soon"
+  },
+  {
+    "id": 4,
+    "name": "Product Launch Event",
+    "username": "Ethan Thompson",
+    "price": "$199.00",
+    "day": "Sat",
+    "date": "03 Aug 2024",
+    "time": "11:00",
+    "location": "Chicago, IL",
+    "image": "/assets/images/avatar/user-15.png",
+    "mainImage": "/assets/images/event/img-04.jpg",
+    "contributors": [
+      {
+        "image": "/assets/images/avatar/user-10.png",
+        "name": "Sophia Adams"
+      },
+      {
+        "image": "/assets/images/avatar/user-15.png",
+        "name": "Ethan Thompson"
+      },
+      {
+        "image": "/assets/images/avatar/user-25.png",
+        "name": "Ava Wilson"
+      }
+    ],
+    "peopleSize": "500",
+    "eventType": "Offline",
+    "status": "Published"
+  },
+  {
+    "id": 5,
+    "name": "Business Networking Summit",
+    "username": "Ava Wilson",
+    "price": "$187.00",
+    "date": "08 Sept 2024",
+    "day": "Sun",
+    "time": "10:30",
+    "location": "Houston, TX",
+    "image": "/assets/images/avatar/user-25.png",
+    "mainImage": "/assets/images/event/img-05.jpg",
+    "contributors": [
+      {
+        "image": "/assets/images/avatar/user-20.png",
+        "name": "Callum Burston"
+      },
+      {
+        "image": "/assets/images/avatar/user-25.png",
+        "name": "Ava Wilson"
+      }
+    ],
+    "peopleSize": "2000",
+    "eventType": "Online",
+    "status": "Coming Soon"
+  },
+  {
+    "id": 6,
+    "name": "Art Exhibition",
+    "username": "Olivia Roberts",
+    "price": "$449.00",
+    "day": "Sat",
+    "date": "12 Oct 2024",
+    "time": "15:00",
+    "location": "London, UK",
+    "image": "/assets/images/avatar/user-30.png",
+    "mainImage": "/assets/images/event/img-06.jpg",
+    "contributors": [
+      {
+        "image": "/assets/images/avatar/user-30.png",
+        "name": "Olivia Roberts"
+      },
+      {
+        "image": "/assets/images/avatar/user-35.png",
+        "name": "Liam White"
+      },
+      {
+        "image": "/assets/images/avatar/user-40.png",
+        "name": "Mia Turner"
+      }
+    ],
+    "peopleSize": "750",
+    "eventType": "Offline",
+    "status": "Published"
+  },
+  {
+    "id": 7,
+    "name": "Technology Forum",
+    "username": "Liam White",
+    "price": "$369.00",
+    "day": "Tue",
+    "date": "05 Nov 2024",
+    "time": "2:30",
+    "location": "Tokyo, Japan",
+    "image": "/assets/images/avatar/user-35.png",
+    "mainImage": "/assets/images/event/img-07.jpg",
+    "contributors": [
+      {
+        "image": "/assets/images/avatar/user-30.png",
+        "name": "Olivia Roberts"
+      },
+      {
+        "image": "/assets/images/avatar/user-35.png",
+        "name": "Liam White"
+      },
+      {
+        "image": "/assets/images/avatar/user-45.png",
+        "name": "Noah Harris"
+      }
+    ],
+    "peopleSize": "1000",
+    "eventType": "Online",
+    "status": "Coming Soon"
+  },
+  {
+    "id": 8,
+    "name": "Music Festival",
+    "username": "Mia Turner",
+    "price": "$349.00",
+    "day": "Fri",
+    "date": "20 Dec 2024",
+    "time": "5:00",
+    "location": "Sydney, Australia",
+    "image": "/assets/images/avatar/user-40.png",
+    "mainImage": "/assets/images/event/img-08.jpg",
+    "contributors": [
+      {
+        "image": "/assets/images/avatar/user-40.png",
+        "name": "Mia Turner"
+      },
+      {
+        "image": "/assets/images/avatar/user-45.png",
+        "name": "Noah Harris"
+      },
+      {
+        "image": "/assets/images/avatar/user-50.png",
+        "name": "Emma Clark"
+      }
+    ],
+    "peopleSize": "5000",
+    "eventType": "Offline",
+    "status": "Coming Soon"
+  },
+  {
+    "id": 9,
+    "name": "Startup Pitch Competition",
+    "username": "Noah Harris",
+    "price": "$254.00",
+    "day": "Fri",
+    "date": "10 Jan 2025",
+    "time": "12:00",
+    "location": "Berlin, Germany",
+    "image": "/assets/images/avatar/user-45.png",
+    "mainImage": "/assets/images/event/img-07.jpg",
+    "contributors": [
+      {
+        "image": "/assets/images/avatar/user-45.png",
+        "name": "Noah Harris"
+      },
+      {
+        "image": "/assets/images/avatar/user-50.png",
+        "name": "Emma Clark"
+      },
+      {
+        "image": "/assets/images/avatar/user-55.png",
+        "name": "Olivia Roberts"
+      }
+    ],
+    "peopleSize": "400",
+    "eventType": "Online",
+    "status": "Published"
+  },
+  {
+    "id": 10,
+    "name": "Fashion Show",
+    "username": "Emma Clark",
+    "price": "$478.00",
+    "day": "Fri",
+    "date": "28 Feb 2025",
+    "time": "4:30 ",
+    "location": "Paris, France",
+    "image": "/assets/images/avatar/user-50.png",
+    "mainImage": "/assets/images/event/img-06.jpg",
+    "contributors": [
+      {
+        "image": "/assets/images/avatar/user-50.png",
+        "name": "Emma Clark"
+      },
+      {
+        "image": "/assets/images/avatar/user-55.png",
+        "name": "Olivia Roberts"
+      },
+      {
+        "image": "/assets/images/avatar/user-60.png",
+        "name": "Mia Turner"
+      }
+    ],
+    "peopleSize": "1200",
+    "eventType": "Offline",
+    "status": "Coming Soon"
+  }
+]

@@ -1,0 +1,7 @@
+.tippy-box {
+  @apply bg-gray-600 text-gray-50 rounded-md dark:bg-dark-800 dark:text-dark-50;
+}
+
+.tippy-arrow {
+  @apply text-gray-600 dark:text-dark-800;
+}

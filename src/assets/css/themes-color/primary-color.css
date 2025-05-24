@@ -1,0 +1,97 @@
+[data-colors='green'] {
+  --color-primary-50: oklch(98.4% 0.0182 166.4);
+  --color-primary-100: oklch(96.73% 0.0421 168.38);
+  --color-primary-200: oklch(93.31% 0.077 165.84);
+  --color-primary-300: oklch(88.6% 0.1269 164.02);
+  --color-primary-400: oklch(82.25% 0.1654 160.37);
+  --color-primary-500: oklch(74.88% 0.1723 157.44);
+  --color-primary-600: oklch(64.79% 0.1512 157.06);
+  --color-primary-700: oklch(54.51% 0.1228 158.21);
+  --color-primary-800: oklch(46.24% 0.0982 159.81);
+  --color-primary-900: oklch(40.38% 0.0818 161.07);
+  --color-primary-950: oklch(27.46% 0.057 162.48);
+}
+
+[data-colors='orange'] {
+  --color-primary-50: oklch(97.33% 0.0134 53.35);
+  --color-primary-100: oklch(93.76% 0.0324 52.33);
+  --color-primary-200: oklch(86.91% 0.0692 47.91);
+  --color-primary-300: oklch(78.54% 0.1178 44.51);
+  --color-primary-400: oklch(70.79% 0.1638 38.6);
+  --color-primary-500: oklch(64.19% 0.2084 34.96);
+  --color-primary-600: oklch(59.32% 0.2139 31.82);
+  --color-primary-700: oklch(51.23% 0.1897 30.2);
+  --color-primary-800: oklch(43.72% 0.1565 28.53);
+  --color-primary-900: oklch(37.95% 0.1283 28.1);
+  --color-primary-950: oklch(24.88% 0.084 26.62);
+}
+
+[data-colors='teal'] {
+  --color-primary-50: oklch(0.984 0.014 180.72);
+  --color-primary-100: oklch(0.953 0.051 180.801);
+  --color-primary-200: oklch(0.91 0.096 180.426);
+  --color-primary-300: oklch(0.855 0.138 181.071);
+  --color-primary-400: oklch(0.777 0.152 181.912);
+  --color-primary-500: oklch(0.704 0.14 182.503);
+  --color-primary-600: oklch(0.6 0.118 184.704);
+  --color-primary-700: oklch(0.511 0.096 186.391);
+  --color-primary-800: oklch(0.437 0.078 188.216);
+  --color-primary-900: oklch(0.386 0.063 188.416);
+  --color-primary-950: oklch(0.277 0.046 192.524);
+}
+
+[data-colors='violet'] {
+  --color-primary-50: oklch(0.969 0.016 293.756);
+  --color-primary-100: oklch(0.943 0.029 294.588);
+  --color-primary-200: oklch(0.894 0.057 293.283);
+  --color-primary-300: oklch(0.811 0.111 293.571);
+  --color-primary-400: oklch(0.702 0.183 293.541);
+  --color-primary-500: oklch(0.606 0.25 292.717);
+  --color-primary-600: oklch(0.541 0.281 293.009);
+  --color-primary-700: oklch(0.491 0.27 292.581);
+  --color-primary-800: oklch(0.432 0.232 292.759);
+  --color-primary-900: oklch(0.38 0.189 293.745);
+  --color-primary-950: oklch(0.283 0.141 291.089);
+}
+
+[data-colors='fuchsia'] {
+  --color-primary-50: oklch(0.977 0.017 320.058);
+  --color-primary-100: oklch(0.952 0.037 318.852);
+  --color-primary-200: oklch(0.903 0.076 319.62);
+  --color-primary-300: oklch(0.833 0.145 321.434);
+  --color-primary-400: oklch(0.74 0.238 322.16);
+  --color-primary-500: oklch(0.667 0.295 322.15);
+  --color-primary-600: oklch(0.591 0.293 322.896);
+  --color-primary-700: oklch(0.518 0.253 323.949);
+  --color-primary-800: oklch(0.452 0.211 324.591);
+  --color-primary-900: oklch(0.401 0.17 325.612);
+  --color-primary-950: oklch(0.293 0.136 325.661);
+}
+
+[data-colors='lime'] {
+  --color-primary-50: oklch(0.986 0.031 120.757);
+  --color-primary-100: oklch(0.967 0.067 122.328);
+  --color-primary-200: oklch(0.938 0.127 124.321);
+  --color-primary-300: oklch(0.897 0.196 126.665);
+  --color-primary-400: oklch(0.841 0.238 128.85);
+  --color-primary-500: oklch(0.768 0.233 130.85);
+  --color-primary-600: oklch(0.648 0.2 131.684);
+  --color-primary-700: oklch(0.532 0.157 131.589);
+  --color-primary-800: oklch(0.453 0.124 130.933);
+  --color-primary-900: oklch(0.405 0.101 131.063);
+  --color-primary-950: oklch(0.274 0.072 132.109);
+}
+
+[data-colors='amber'] {
+  --color-primary-50: oklch(0.987 0.022 95.277);
+  --color-primary-100: oklch(0.962 0.059 95.617);
+  --color-primary-200: oklch(0.924 0.12 95.746);
+  --color-primary-300: oklch(0.879 0.169 91.605);
+  --color-primary-400: oklch(0.828 0.189 84.429);
+  --color-primary-500: oklch(0.769 0.188 70.08);
+  --color-primary-600: oklch(0.666 0.179 58.318);
+  --color-primary-700: oklch(0.555 0.163 48.998);
+  --color-primary-800: oklch(0.473 0.137 46.201);
+  --color-primary-900: oklch(0.414 0.112 45.904);
+  --color-primary-950: oklch(0.279 0.077 45.635);
+}

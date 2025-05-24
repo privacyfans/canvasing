@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "New Year's Day",
+    "date": "2024-01-01",
+    "day": "Monday"
+  },
+  {
+    "id": 2,
+    "name": "Martin Luther King Jr. Day",
+    "date": "2024-01-15",
+    "day": "Monday"
+  },
+  {
+    "id": 3,
+    "name": "Groundhog Day",
+    "date": "2024-02-02",
+    "day": "Friday"
+  },
+  {
+    "id": 4,
+    "name": "Valentine's Day",
+    "date": "2024-02-14",
+    "day": "Wednesday"
+  },
+  {
+    "id": 5,
+    "name": "Presidents' Day",
+    "date": "2024-02-19",
+    "day": "Monday"
+  },
+  {
+    "id": 6,
+    "name": "St. Patrick's Day",
+    "date": "2024-03-17",
+    "day": "Sunday"
+  },
+  {
+    "id": 7,
+    "name": "Easter",
+    "date": "2024-03-31",
+    "day": "Sunday"
+  },
+  {
+    "id": 8,
+    "name": "April Fool's Day",
+    "date": "2024-04-01",
+    "day": "Monday"
+  },
+  {
+    "id": 9,
+    "name": "Earth Day",
+    "date": "2024-04-22",
+    "day": "Monday"
+  },
+  {
+    "id": 10,
+    "name": "Cinco de Mayo",
+    "date": "2024-05-05",
+    "day": "Sunday"
+  },
+  {
+    "id": 11,
+    "name": "Mother's Day",
+    "date": "2024-05-12",
+    "day": "Sunday"
+  },
+  {
+    "id": 12,
+    "name": "Memorial Day",
+    "date": "2024-05-27",
+    "day": "Monday"
+  },
+  {
+    "id": 13,
+    "name": "Father's Day",
+    "date": "2024-06-16",
+    "day": "Sunday"
+  },
+  {
+    "id": 14,
+    "name": "Juneteenth",
+    "date": "2024-06-19",
+    "day": "Wednesday"
+  },
+  {
+    "id": 15,
+    "name": "Independence Day",
+    "date": "2024-07-04",
+    "day": "Thursday"
+  },
+  {
+    "id": 16,
+    "name": "Labor Day",
+    "date": "2024-09-02",
+    "day": "Monday"
+  },
+  {
+    "id": 17,
+    "name": "Columbus Day",
+    "date": "2024-10-14",
+    "day": "Monday"
+  },
+  {
+    "id": 18,
+    "name": "Halloween",
+    "date": "2024-10-31",
+    "day": "Thursday"
+  },
+  {
+    "id": 19,
+    "name": "Veterans Day",
+    "date": "2024-11-11",
+    "day": "Monday"
+  },
+  {
+    "id": 20,
+    "name": "Thanksgiving",
+    "date": "2024-11-28",
+    "day": "Thursday"
+  },
+  {
+    "id": 21,
+    "name": "Black Friday",
+    "date": "2024-11-29",
+    "day": "Friday"
+  },
+  {
+    "id": 22,
+    "name": "Christmas Eve",
+    "date": "2024-12-24",
+    "day": "Tuesday"
+  },
+  {
+    "id": 23,
+    "name": "Christmas Day",
+    "date": "2024-12-25",
+    "day": "Wednesday"
+  },
+  {
+    "id": 24,
+    "name": "New Year's Eve",
+    "date": "2024-12-31",
+    "day": "Tuesday"
+  },
+  {
+    "id": 25,
+    "name": "Chinese New Year",
+    "date": "2024-02-10",
+    "day": "Saturday"
+  },
+  {
+    "id": 26,
+    "name": "Passover",
+    "date": "2024-04-22",
+    "day": "Monday"
+  },
+  {
+    "id": 27,
+    "name": "Ramadan Begins",
+    "date": "2024-03-10",
+    "day": "Sunday"
+  },
+  {
+    "id": 28,
+    "name": "Ramadan Ends",
+    "date": "2024-04-08",
+    "day": "Monday"
+  },
+  {
+    "id": 29,
+    "name": "Diwali",
+    "date": "2024-10-20",
+    "day": "Sunday"
+  },
+  {
+    "id": 30,
+    "name": "Hanukkah",
+    "date": "2024-12-25",
+    "day": "Wednesday"
+  }
+]

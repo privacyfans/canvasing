@@ -1,0 +1,71 @@
+@layer components {
+  .simplebar-scrollbar::before {
+    @apply !bg-gray-300;
+  }
+
+  [data-mode='dark'] .simplebar-scrollbar::before {
+    @apply !bg-dark-800;
+  }
+
+  [data-simplebar-scroll='primary'] .simplebar-scrollbar::before {
+    @apply !bg-primary-500;
+  }
+
+  [data-simplebar-scroll='green'] .simplebar-scrollbar::before {
+    @apply !bg-green-500;
+  }
+
+  [data-simplebar-scroll='purple'] .simplebar-scrollbar::before {
+    @apply !bg-purple-500;
+  }
+
+  [data-simplebar-scroll='yellow'] .simplebar-scrollbar::before {
+    @apply !bg-yellow-500;
+  }
+
+  [data-simplebar-scroll='red'] .simplebar-scrollbar::before {
+    @apply !bg-red-500;
+  }
+
+  [data-simplebar-scroll='sky'] .simplebar-scrollbar::before {
+    @apply !bg-sky-500;
+  }
+
+  [data-simplebar-scroll='pink'] .simplebar-scrollbar::before {
+    @apply !bg-pink-500;
+  }
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 10px;
+  border-radius: 10px;
+  background-color: oklch(0.872 0.01 258.338);
+}
+
+[data-mode='dark'] {
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: oklch(0.208 0.042 265.755);
+  }
+
+  ::-webkit-scrollbar {
+    width: 12px;
+    background-color: oklch(0.208 0.042 265.755);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    width: 10px;
+    border-radius: 10px;
+    background-color: oklch(0.279 0.041 260.031);
+  }
+}

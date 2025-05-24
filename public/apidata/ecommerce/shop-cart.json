@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "productId": "PEP-19118",
+    "image1": "/assets/images/products/img-04.png",
+    "category": "Fashion",
+    "productName": "Crop top Sweater Clothing",
+    "price": 29.49,
+    "discount": 0.25,
+    "colors": ["Blue", "Gray", "Pink", "Green", "Red"],
+    "size": ["S", "M", "L", "XL", "2XL"],
+    "count": 3,
+    "activeColor": "Blue",
+    "activeSize": "S",
+    "stock": 5
+  },
+  {
+    "id": 2,
+    "productId": "PEP-19117",
+    "image1": "/assets/images/products/img-03.png",
+    "category": "Footwear",
+    "productName": "Spar Men Black Running Shoes",
+    "price": 35.78,
+    "discount": 0,
+    "colors": ["Gray", "Pink"],
+    "size": ["6", "7", "8", "9", "10"],
+    "count": 2,
+    "activeColor": "Gray",
+    "activeSize": "6",
+    "stock": 5
+  },
+  {
+    "id": 3,
+    "productId": "PEP-19123",
+    "image1": "/assets/images/products/img-09.png",
+    "category": "Fashion",
+    "productName": "Hoodie Jacket Letterman Sleeve Coat",
+    "price": 44.49,
+    "discount": 0,
+    "colors": ["Blue"],
+    "size": ["M", "L", "XL"],
+    "count": 1,
+    "activeColor": "Blue",
+    "activeSize": "M",
+    "stock": 5
+  }
+]

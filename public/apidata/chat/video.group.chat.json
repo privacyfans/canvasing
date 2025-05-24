@@ -1,0 +1,42 @@
+[
+  {
+    "userId": 1,
+    "roomId": 1,
+    "avatar": "/assets/images/avatar/user-4.png",
+    "name": "Michaela Sutton",
+    "message": "I think this SRBThemes will provide us with some great insights.",
+    "time": "02:14"
+  },
+  {
+    "userId": 2,
+    "roomId": 1,
+    "avatar": "/assets/images/avatar/user-12.png",
+    "name": "John Powers",
+    "message": "How about our problem last week?",
+    "time": "03:47"
+  },
+  {
+    "userId": 3,
+    "roomId": 1,
+    "avatar": "/assets/images/avatar/user-11.png",
+    "name": "James Davis",
+    "message": "It&apos;s all clear, no worries😊",
+    "time": "04:32"
+  },
+  {
+    "userId": 4,
+    "roomId": 1,
+    "avatar": "/assets/images/avatar/user-15.png",
+    "name": "Wendy Dugan",
+    "message": "Great tips thank you!",
+    "time": "08:47"
+  },
+  {
+    "userId": 5,
+    "roomId": 1,
+    "avatar": "/assets/images/avatar/user-17.png",
+    "name": "Shopia Mia",
+    "message": "Love this conversation",
+    "time": "08:52"
+  }
+]

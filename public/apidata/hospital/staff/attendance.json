@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "date": "2024-01-01",
+    "shiftTime": " 9 hrs Shift",
+    "checkInTime": "8:15 am",
+    "checkOutTime": "5:10 pm",
+    "workedTime": "",
+    "Difference": "",
+    "status": "Present"
+  },
+  {
+    "id": 2,
+    "date": "2024-01-02",
+    "checkInTime": "9:00 am",
+    "shiftTime": " 9 hrs Shift",
+    "checkOutTime": "6:00 pm",
+    "workedTime": "",
+    "Difference": "",
+    "status": "Late"
+  },
+  {
+    "id": 3,
+    "date": "2024-01-03",
+    "checkInTime": "8:00 am",
+    "shiftTime": " 9 hrs Shift",
+    "checkOutTime": "5:00 pm",
+    "workedTime": "",
+    "Difference": "",
+    "status": "Present"
+  },
+  {
+    "id": 4,
+    "date": "2024-01-04",
+    "checkInTime": "8:00 am",
+    "shiftTime": " 9 hrs Shift",
+    "checkOutTime": "5:10 pm",
+    "workedTime": "",
+    "Difference": "",
+    "status": "Present"
+  },
+  {
+    "id": 5,
+    "date": "2024-01-05",
+    "checkInTime": "8:15 am",
+    "shiftTime": " 9 hrs Shift",
+    "checkOutTime": "5:30 pm",
+    "workedTime": "",
+    "Difference": "",
+    "status": "Present"
+  },
+  {
+    "id": 6,
+    "date": "2024-01-06",
+    "checkInTime": "8:00 am",
+    "shiftTime": " 9 hrs Shift",
+    "checkOutTime": "5:00 pm",
+    "workedTime": "",
+    "Difference": "",
+    "status": "Present"
+  },
+  {
+    "id": 7,
+    "date": "2024-01-07",
+    "checkInTime": "8:30 am",
+    "shiftTime": " 9 hrs Shift",
+    "checkOutTime": "6:00 pm",
+    "workedTime": "",
+    "Difference": "",
+    "status": "Present"
+  },
+  {
+    "id": 8,
+    "date": "2024-01-08",
+    "checkInTime": "0",
+    "shiftTime": " 9 hrs Shift",
+    "checkOutTime": "0",
+    "workedTime": "",
+    "Difference": "",
+    "status": "Absent"
+  },
+  {
+    "id": 9,
+    "date": "2024-01-09",
+    "checkInTime": "9:00 am",
+    "shiftTime": " 9 hrs Shift",
+    "checkOutTime": "5:30 pm",
+    "workedTime": "",
+    "Difference": "",
+    "status": "Late"
+  },
+  {
+    "id": 10,
+    "date": "2024-01-10",
+    "checkInTime": "8:15 am",
+    "shiftTime": " 9 hrs Shift",
+    "checkOutTime": "5:00 pm",
+    "workedTime": "",
+    "Difference": "",
+    "status": "Present"
+  },
+  {
+    "id": 11,
+    "date": "2024-01-11",
+    "checkInTime": "8:00 am",
+    "shiftTime": " 9 hrs Shift",
+    "checkOutTime": "5:10 pm",
+    "workedTime": "",
+    "Difference": "",
+    "status": "Present"
+  },
+  {
+    "id": 12,
+    "date": "2024-01-12",
+    "checkInTime": "8:15 am",
+    "shiftTime": " 9 hrs Shift",
+    "checkOutTime": "5:00 pm",
+    "workedTime": "",
+    "Difference": "",
+    "status": "Present"
+  },
+  {
+    "id": 13,
+    "date": "2024-01-13",
+    "checkInTime": "8:00 am",
+    "shiftTime": " 9 hrs Shift",
+    "checkOutTime": "5:30 pm",
+    "workedTime": "",
+    "Difference": "",
+    "status": "Present"
+  },
+  {
+    "id": 14,
+    "date": "2024-01-14",
+    "checkInTime": "9:00 am",
+    "shiftTime": " 9 hrs Shift",
+    "checkOutTime": "5:30 pm",
+    "workedTime": "",
+    "Difference": "",
+    "status": "Late"
+  },
+  {
+    "id": 15,
+    "date": "2024-01-15",
+    "checkInTime": "9:00 am",
+    "shiftTime": " 9 hrs Shift",
+    "checkOutTime": "5:30 pm",
+    "workedTime": "",
+    "Difference": "",
+    "status": "Late"
+  },
+  {
+    "id": 16,
+    "date": "2024-01-16",
+    "checkInTime": "8:15 am",
+    "shiftTime": " 9 hrs Shift",
+    "checkOutTime": "5:30 pm",
+    "workedTime": "",
+    "Difference": "",
+    "status": "Present"
+  }
+]

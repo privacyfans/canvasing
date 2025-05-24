@@ -1,0 +1,87 @@
+/*----------------------------------------------------------------
+---------------------------nouislider.css-----------------------
+---------------------------------------------------------------- */
+
+.noUi-target {
+  @apply bg-white border border-gray-200 shadow-lg shadow-gray-50 dark:bg-dark-900 dark:border-dark-800 dark:shadow-dark-900;
+}
+
+.noUi-connect {
+  @apply bg-primary-500;
+}
+
+.noUi-horizontal {
+  @apply h-3;
+
+  .noUi-handle {
+    @apply h-6 border-gray-200 bg-white shadow-none dark:border-dark-800 dark:bg-dark-900 w-2 -right-1;
+  }
+}
+
+.noUi-handle {
+  @apply before:hidden after:hidden border-gray-200 bg-white dark:border-dark-800 dark:bg-dark-900 shadow-none;
+}
+
+.noUi-tooltip {
+  @apply border-gray-200 bg-white dark:border-dark-800 dark:bg-dark-900 text-gray-800 dark:text-dark-50;
+}
+
+:is(.noUi-marker-large, .noUi-marker) {
+  @apply bg-gray-200 dark:bg-dark-800;
+}
+
+.noUi-value-sub {
+  @apply text-gray-500 dark:text-dark-500;
+}
+
+.c-1-color {
+  @apply bg-red-500;
+}
+
+.c-2-color {
+  @apply !bg-yellow-500;
+}
+
+.c-3-color {
+  @apply !bg-green-500;
+}
+
+.c-4-color {
+  @apply !bg-purple-500;
+}
+
+.c-5-color {
+  @apply !bg-primary-500;
+}
+
+#slider-toggle {
+  @apply h-[3.125rem];
+}
+
+#slider-toggle.off .noUi-handle {
+  @apply border-red-500 bg-red-500;
+}
+
+#colorpicker {
+  @apply mx-auto;
+}
+
+:is(#red, #green, #blue) {
+  @apply m-5 inline-block h-52;
+}
+
+#result {
+  @apply inline-block shadow-lg shadow-gray-200 dark:shadow-dark-900 rounded-md size-32 m-10 align-top bg-gray-800 text-gray-800 dark:bg-dark-700 dark:text-dark-100;
+}
+
+#red .noUi-connect {
+  @apply !bg-red-500;
+}
+
+#green .noUi-connect {
+  @apply !bg-green-500;
+}
+
+#blue .noUi-connect {
+  @apply !bg-sky-500;
+}

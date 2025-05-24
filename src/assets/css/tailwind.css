@@ -1,0 +1,69 @@
+/*
+Template Name: Domiex - Admin & Dashboard Template
+Author: SRBThemes
+Version: 1.0.0
+File: tailwind scss files
+*/
+
+@import 'tailwindcss';
+@import './fonts/fonts.css';
+
+@import './components/theme.css';
+
+@import './themes-color/primary-color.css';
+@import './themes-color/sidebar-color.css';
+@import './themes-color/dark-color.css';
+
+@import './layouts/topbar.css';
+@import './layouts/horizontal.css';
+
+@import './components/drawer.css';
+@import './components/helper.css';
+@import './components/buttons.css';
+@import './components/form.css';
+@import './components/animation';
+
+/* plugins css */
+@import './plugins/apexchart.css';
+@import './plugins/calender.css';
+@import './plugins/simplebar.css';
+@import './plugins/flatpicker.css';
+@import './plugins/select.css';
+@import './plugins/swiper.css';
+@import './plugins/range-slider.css';
+@import './next/next.css';
+
+@custom-variant dark (&:where([data-mode=dark], [data-mode=dark] *));
+
+@plugin "../../../plugins/layouts/topbar.js";
+@plugin "../../../plugins/layouts/sidebar.js";
+@plugin "../../../plugins/layouts/others.js";
+@plugin "../../../plugins/layouts/footer.js";
+@plugin "../../../plugins/layouts/page-heading.js";
+@plugin "../../../plugins/layouts/boxed.js";
+@plugin "../../../plugins/layouts/horizontal.js";
+@plugin "../../../plugins/layouts/semibox.js";
+
+@plugin "../../../plugins/pixeleyezui/accordion.js";
+@plugin "../../../plugins/pixeleyezui/alerts.js";
+@plugin "../../../plugins/pixeleyezui/badge.js";
+@plugin "../../../plugins/pixeleyezui/breadcrumb.js";
+@plugin "../../../plugins/pixeleyezui/btn-group.js";
+@plugin "../../../plugins/pixeleyezui/btn-navigation.js";
+@plugin "../../../plugins/pixeleyezui/buttons.js";
+@plugin "../../../plugins/pixeleyezui/cards.js";
+@plugin "../../../plugins/pixeleyezui/drawer.js";
+@plugin "../../../plugins/pixeleyezui/dropdown.js";
+@plugin "../../../plugins/pixeleyezui/forms.js";
+@plugin "../../../plugins/pixeleyezui/input-spin.js";
+@plugin "../../../plugins/pixeleyezui/links.js";
+@plugin "../../../plugins/pixeleyezui/nav.js";
+@plugin "../../../plugins/pixeleyezui/new-utilities.js";
+@plugin "../../../plugins/pixeleyezui/pagination.js";
+@plugin "../../../plugins/pixeleyezui/progressbar.js";
+@plugin "../../../plugins/pixeleyezui/spin-loader.js";
+@plugin "../../../plugins/pixeleyezui/table.js";
+@plugin "../../../plugins/pixeleyezui/timeline.js";
+@plugin "../../../plugins/navbar.js";
+@plugin "../../../plugins/invoice-landing.js";
+@plugin "../../../plugins/custom-calendar.js";

@@ -1,0 +1,125 @@
+@layer components {
+  [type='checkbox']:checked {
+    @apply focus:ring-transparent;
+    @apply bg-no-repeat;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDEyODAgMTI0NCIgd2lkdGg9IjEyODAiIGhlaWdodD0iMTI0NCI+DQoJPHRpdGxlPjI3ODIwLXN2ZzwvdGl0bGU+DQoJPHN0eWxlPg0KCQkuczAgeyBmaWxsOiAjZmZmZmZmIH0gDQoJPC9zdHlsZT4NCgk8ZyBpZD0iTGF5ZXIiPg0KCQk8cGF0aCBpZD0iTGF5ZXIiIGNsYXNzPSJzMCIgZD0ibTEyMzcuOCAxLjVjLTMyIDYuNC03OC4yIDM3LTE0NC4zIDk1LjQtMzAuMyAyNi44LTU0LjEgNDkuNi0xMDYuNiAxMDIuMS04NC41IDg0LjUtMTQyLjQgMTQ2LTI5Ni40IDMxNS03Mi45IDgwLTExNi40IDEyNy41LTE0My45IDE1Ny03Ni4yIDgxLjgtMTIyLjYgMTI2LjYtMTMzLjIgMTI4LjYtNy41IDEuNC0zNS41LTAuMy01MS40LTMuMS0zNS4xLTYuMS04Ni0yMC40LTE2NS41LTQ2LjUtMTA5LjktMzYtMTMzLjgtNDIuNS0xNTguNS00Mi41LTEyLjggMC0xMy44IDAuMS0xOS44IDIuOS03LjYgMy41LTEzLjMgOS42LTE2LjIgMTcuMi00LjIgMTEuMi0yLjcgMTcgMTEuNSA0NS45IDQ1LjQgOTIuMSAxMjUuMiAxOTguNCAyMjQuNSAyOTguOSA5My4yIDk0LjMgMTczIDE1My41IDIyNy41IDE2OC43IDEwLjYgMyAyOC4yIDMuMyAzNi45IDAuNiA4LjctMi43IDE3LjQtMTEuMyAyMi42LTIyLjQgMTIuNC0yNi42IDU2LjUtOTguOSAxMzMuOC0yMTkuOCA0OS41LTc3LjIgMTAzLjYtMTYwLjUgMjk3LjctNDU3LjUgMTYxLjctMjQ3LjQgMjQwLjYtMzcwLjUgMjg2LjUtNDQ3IDE0LTIzLjIgMzQtNTguOSAzNC02MC41IDAtMC42LTMuOS04LjQtOC42LTE3LjItNi4yLTExLjYtOS4yLTE2LjMtMTAuNy0xNi43LTMuNS0wLjktMTIuNy0wLjUtMTkuOSAwLjl6Ii8+DQoJPC9nPg0KPC9zdmc+');
+    background-size: 0.65rem 0.65rem;
+    background-position: 50%;
+  }
+
+  [type='radio']:checked {
+    @apply bg-no-repeat;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9Jy00IC00IDggOCc+PGNpcmNsZSByPScyJyBmaWxsPScjZmZmJy8+PC9zdmc+');
+    background-size: -0.15rem 0.85rem;
+    background-position: 50%;
+  }
+
+  [type='checkbox'].arrow-none:checked,
+  [type='radio'].arrow-none:checked {
+    @apply bg-no-repeat;
+  }
+
+  [dir='rtl'] .form-select {
+    background-position: left 0.7rem center;
+  }
+
+  input[type='range'] {
+    &::-webkit-slider-thumb {
+      @apply bg-primary-500 !size-4 rounded-full cursor-pointer appearance-none;
+    }
+
+    &:focus::-webkit-slider-thumb {
+      @apply bg-primary-600 shadow-lg shadow-primary-300;
+    }
+  }
+
+  input[type='range'].range-green {
+    &::-webkit-slider-thumb {
+      @apply !bg-green-500;
+    }
+
+    &:focus::-webkit-slider-thumb {
+      @apply !bg-green-600 !shadow-lg !shadow-green-300;
+    }
+  }
+
+  input[type='range'].range-orange {
+    &::-webkit-slider-thumb {
+      @apply !bg-orange-500;
+    }
+
+    &:focus::-webkit-slider-thumb {
+      @apply !bg-orange-600 !shadow-lg !shadow-orange-300;
+    }
+  }
+
+  input[type='range'].range-sky {
+    &::-webkit-slider-thumb {
+      @apply !bg-sky-500;
+    }
+
+    &:focus::-webkit-slider-thumb {
+      @apply !bg-sky-600 !shadow-lg !shadow-sky-300;
+    }
+  }
+
+  input[type='range'].range-yellow {
+    &::-webkit-slider-thumb {
+      @apply !bg-yellow-500;
+    }
+
+    &:focus::-webkit-slider-thumb {
+      @apply !bg-yellow-600 !shadow-lg !shadow-yellow-300;
+    }
+  }
+
+  input[type='range'].range-red {
+    &::-webkit-slider-thumb {
+      @apply !bg-red-500;
+    }
+
+    &:focus::-webkit-slider-thumb {
+      @apply !bg-red-600 !shadow-lg !shadow-red-300;
+    }
+  }
+
+  input[type='range'].range-purple {
+    &::-webkit-slider-thumb {
+      @apply !bg-purple-500;
+    }
+
+    &:focus::-webkit-slider-thumb {
+      @apply !bg-purple-600 !shadow-lg !shadow-purple-300;
+    }
+  }
+
+  input[type='range'].range-pink {
+    &::-webkit-slider-thumb {
+      @apply !bg-pink-500;
+    }
+
+    &:focus::-webkit-slider-thumb {
+      @apply !bg-pink-600 !shadow-lg !shadow-pink-300;
+    }
+  }
+
+  input[type='range'].range-indigo {
+    &::-webkit-slider-thumb {
+      @apply !bg-indigo-500;
+    }
+
+    &:focus::-webkit-slider-thumb {
+      @apply !bg-indigo-600 !shadow-lg !shadow-indigo-300;
+    }
+  }
+
+  input[type='range'].range-dark {
+    &::-webkit-slider-thumb {
+      @apply !bg-gray-600;
+    }
+
+    &:focus::-webkit-slider-thumb {
+      @apply !bg-gray-800 shadow-lg !shadow-gray-300;
+    }
+  }
+}

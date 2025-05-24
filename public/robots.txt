@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://domiex-next-default-build.vercel.app/
+
+# Sitemaps
+Sitemap: https://domiex-next-default-build.vercel.app/sitemap.xml

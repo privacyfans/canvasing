@@ -1,0 +1,391 @@
+[
+  {
+    "groupId": 1,
+    "roomId": 2,
+    "name": "Shopify Developers",
+    "image": "/assets/images/brands/img-08.png",
+    "message": "Hi team! I’m working on integrating the third-party review system. I’ve run into a small issue with the API limits, but I’m handling it. Should have it sorted by the end of the day.",
+    "time": "11:48AM",
+    "badge": "2",
+    "unread": true,
+    "active": true,
+    "members": [
+      {
+        "id": 1,
+        "name": "Auli Ahokas",
+        "role": "Admin",
+        "avatar": "/assets/images/avatar/user-5.png"
+      },
+      {
+        "id": 2,
+        "name": "Sirpa Kolkka",
+        "role": "Team Leader",
+        "avatar": "/assets/images/avatar/user-6.png"
+      },
+      {
+        "id": 3,
+        "name": "Risto Saraste",
+        "role": "Manager",
+        "avatar": "/assets/images/avatar/user-37.png"
+      },
+      {
+        "id": 4,
+        "name": "Leena Laine",
+        "role": "Developer",
+        "avatar": "/assets/images/avatar/user-36.png"
+      }
+    ],
+    "messages": [
+      {
+        "id": 1,
+        "user": {
+          "name": "Auli Ahokas",
+          "avatar": "/assets/images/avatar/user-5.png",
+          "status": "online"
+        },
+        "timestamp": "Today, 09:59 AM",
+        "message": "Hey team, I hope everyone is doing well. Let's do a quick standup. What are everyone's updates for today?",
+        "type": "received"
+      },
+      {
+        "id": 2,
+        "user": {
+          "name": "Sirpa Kolkka",
+          "avatar": "/assets/images/avatar/user-6.png",
+          "status": "online"
+        },
+        "timestamp": "Today, 10:00 AM",
+        "message": "Morning! I’m working on the new theme design. Almost done with the homepage. I'll move on to the product pages next. Could use some feedback on the hero section if anyone has time.",
+        "type": "sent"
+      },
+      {
+        "id": 3,
+        "user": {
+          "name": "Risto Saraste",
+          "avatar": "/assets/images/avatar/user-37.png",
+          "status": "online"
+        },
+        "timestamp": "Today, 10:00 AM",
+        "message": "Hey all. I’m debugging an issue with the checkout process. There seems to be a problem with the payment gateway integration. I'll keep you posted.",
+        "type": "received"
+      },
+      {
+        "id": 4,
+        "user": {
+          "name": "Leena Laine",
+          "avatar": "/assets/images/avatar/user-36.png",
+          "status": "online"
+        },
+        "timestamp": "Today, 10:00 AM",
+        "message": "Hi team! I’m working on integrating the third-party review system. I’ve run into a small issue with the API limits, but I’m handling it. Should have it sorted by the end of the day.",
+        "type": "received"
+      }
+    ]
+  },
+  {
+    "groupId": 2,
+    "roomId": 2,
+    "name": "Social Medium Team",
+    "image": "/assets/images/brands/img-12.png",
+    "message": "Hello, How are you?",
+    "time": "11:48AM",
+    "badge": "2",
+    "unread": true,
+    "active": false,
+    "members": [
+      {
+        "id": 1,
+        "name": "Auli Ahokas",
+        "role": "Developer",
+        "avatar": "/assets/images/avatar/user-5.png"
+      },
+      {
+        "id": 2,
+        "name": "Sirpa Kolkka",
+        "role": "Team Leader",
+        "avatar": "/assets/images/avatar/user-6.png"
+      }
+    ],
+    "messages": [
+      {
+        "id": 1,
+        "user": {
+          "name": "Auli Ahokas",
+          "avatar": "/assets/images/avatar/user-15.png",
+          "status": "online"
+        },
+        "timestamp": "Today, 02:59 PM",
+        "message": "Hi team. I’m testing the recent updates on the staging server. Found a couple of minor bugs in the user registration flow. Jamie, I’ll share the details with you in a bit.",
+        "type": "received"
+      },
+      {
+        "id": 2,
+        "user": {
+          "name": "Sirpa Kolkka",
+          "avatar": "/assets/images/avatar/user-15.png",
+          "status": "online"
+        },
+        "timestamp": "Today, 03:00 PM",
+        "message": "Hey all. I’m debugging an issue with the checkout process. There seems to be a problem with the payment gateway integration. I'll keep you posted.",
+        "type": "sent"
+      }
+    ]
+  },
+  {
+    "groupId": 3,
+    "roomId": 2,
+    "name": "Deployment Disruptor",
+    "image": "/assets/images/brands/img-02.png",
+    "message": "Hello, How are you?",
+    "time": "11:48AM",
+    "unread": false,
+    "active": false,
+    "members": [
+      {
+        "id": 1,
+        "name": "Tuula Nieminen",
+        "role": "Developer",
+        "avatar": "/assets/images/avatar/user-29.png"
+      },
+      {
+        "id": 2,
+        "name": "Jari Mäkinen",
+        "role": "Developer",
+        "avatar": "/assets/images/avatar/user-31.png"
+      },
+      {
+        "id": 3,
+        "name": "Heidi Kinnunen",
+        "role": "Developer",
+        "avatar": "/assets/images/avatar/user-12.png"
+      },
+      {
+        "id": 4,
+        "name": "Pekka Heikkinen",
+        "role": "Designer",
+        "avatar": "/assets/images/avatar/user-21.png"
+      }
+    ],
+    "messages": [
+      {
+        "id": 1,
+        "user": {
+          "name": "Tuula Nieminen",
+          "avatar": "/assets/images/avatar/user-29.png",
+          "status": "online"
+        },
+        "timestamp": "Today, 04:11 AM",
+        "message": "Hey all. I’m debugging an issue with the checkout process. There seems to be a problem with the payment gateway integration. I'll keep you posted.",
+        "type": "received"
+      },
+      {
+        "id": 2,
+        "user": {
+          "name": "Jari Mäkinen",
+          "avatar": "/assets/images/avatar/user-31.png",
+          "status": "online"
+        },
+        "timestamp": "Today, 04:11 AM",
+        "message": "Hi team! I’m working on integrating the third-party review system. I’ve run into a small issue with the API limits, but I’m handling it. Should have it sorted by the end of the day.",
+        "type": "received"
+      },
+      {
+        "id": 3,
+        "user": {
+          "name": "Heidi Kinnunen",
+          "avatar": "/assets/images/avatar/user-12.png",
+          "status": "online"
+        },
+        "timestamp": "Today, 4:31 PM",
+        "message": "Hi team. I’m testing the recent updates on the staging server. Found a couple of minor bugs in the user registration flow. Jamie, I’ll share the details with you in a bit.",
+        "type": "received"
+      },
+      {
+        "id": 4,
+        "user": {
+          "name": "Pekka Heikkinen",
+          "avatar": "/assets/images/avatar/user-21.png",
+          "status": "online"
+        },
+        "timestamp": "Today, 05:00 PM",
+        "message": "Hey team, I hope everyone is doing well. Let's do a quick standup. What are everyone's updates for today?",
+        "type": "received"
+      }
+    ]
+  },
+  {
+    "groupId": 4,
+    "roomId": 2,
+    "name": "Full-Stack Crew",
+    "image": "/assets/images/brands/img-22.png",
+    "message": "Hello, How are you?",
+    "time": "11:48AM",
+    "unread": false,
+    "active": false,
+    "members": [
+      {
+        "id": 1,
+        "name": "Tuula Nieminen",
+        "role": "Developer",
+        "avatar": "/assets/images/avatar/user-29.png"
+      },
+      {
+        "id": 2,
+        "name": "Jari Mäkinen",
+        "role": "Developer",
+        "avatar": "/assets/images/avatar/user-31.png"
+      },
+      {
+        "id": 3,
+        "name": "Heidi Kinnunen",
+        "role": "Developer",
+        "avatar": "/assets/images/avatar/user-12.png"
+      },
+      {
+        "id": 4,
+        "name": "Risto Saraste",
+        "role": "Manager",
+        "avatar": "/assets/images/avatar/user-37.png"
+      }
+    ],
+    "messages": [
+      {
+        "id": 1,
+        "user": {
+          "name": "Tuula Nieminen",
+          "avatar": "/assets/images/avatar/user-29.png",
+          "status": "online"
+        },
+        "timestamp": "Today, 09:11 AM",
+        "message": "How are we progressing with the launch event planning?",
+        "type": "received"
+      },
+      {
+        "id": 2,
+        "user": {
+          "name": "Jari Mäkinen",
+          "avatar": "/assets/images/avatar/user-31.png",
+          "status": "online"
+        },
+        "timestamp": "Today, 09:11 AM",
+        "message": "The venue is booked, and catering is confirmed.",
+        "type": "received"
+      },
+      {
+        "id": 3,
+        "user": {
+          "name": "Heidi Kinnunen",
+          "avatar": "/assets/images/avatar/user-12.png",
+          "status": "online"
+        },
+        "timestamp": "Today, 09:11 AM",
+        "message": "Great! I’ll follow up with the marketing team for promotion.",
+        "type": "received"
+      },
+      {
+        "id": 4,
+        "user": {
+          "name": "Risto Saraste",
+          "avatar": "/assets/images/avatar/user-37.png",
+          "status": "online"
+        },
+        "timestamp": "Today, 09:11 AM",
+        "message": "We should also send invites by the end of the week.",
+        "type": "received"
+      },
+      {
+        "id": 5,
+        "user": {
+          "name": "Tuula Nieminen",
+          "avatar": "/assets/images/avatar/user-29.png",
+          "status": "online"
+        },
+        "timestamp": "Today, 09:11 AM",
+        "message": "I agree 😊. I'll update the assets by tomorrow.",
+        "type": "sent"
+      }
+    ]
+  },
+  {
+    "groupId": 5,
+    "roomId": 2,
+    "name": "UX/UI Avengers",
+    "image": "/assets/images/brands/img-01.png",
+    "message": "Hello, How are you?",
+    "time": "11:48AM",
+    "unread": false,
+    "active": false,
+    "members": [
+      {
+        "id": 1,
+        "name": "Tuula Nieminen",
+        "role": "Developer",
+        "avatar": "/assets/images/avatar/user-29.png"
+      },
+      {
+        "id": 2,
+        "name": "Jari Mäkinen",
+        "role": "Developer",
+        "avatar": "/assets/images/avatar/user-31.png"
+      },
+      {
+        "id": 3,
+        "name": "Heidi Kinnunen",
+        "role": "Developer",
+        "avatar": "/assets/images/avatar/user-12.png"
+      },
+      {
+        "id": 4,
+        "name": "Risto Saraste",
+        "role": "Manager",
+        "avatar": "/assets/images/avatar/user-37.png"
+      }
+    ],
+    "messages": [
+      {
+        "id": 1,
+        "user": {
+          "name": "Tuula Nieminen",
+          "avatar": "/assets/images/avatar/user-29.png",
+          "status": "online"
+        },
+        "timestamp": "Today, 11:11 AM",
+        "message": "Good Evening! We need to finalize the new remote work policies.",
+        "type": "received"
+      },
+      {
+        "id": 2,
+        "user": {
+          "name": "Jari Mäkinen",
+          "avatar": "/assets/images/avatar/user-31.png",
+          "status": "online"
+        },
+        "timestamp": "Today, 11:13 AM",
+        "message": "I’ve drafted the initial version. Let’s review it tomorrow.",
+        "type": "received"
+      },
+      {
+        "id": 3,
+        "user": {
+          "name": "Heidi Kinnunen",
+          "avatar": "/assets/images/avatar/user-12.png",
+          "status": "online"
+        },
+        "timestamp": "Today, 11:13 AM",
+        "message": "Perfect, I’ll schedule a meeting for the review.",
+        "type": "sent"
+      },
+      {
+        "id": 4,
+        "user": {
+          "name": "Risto Saraste",
+          "avatar": "/assets/images/avatar/user-37.png",
+          "status": "online"
+        },
+        "timestamp": "Today, 11:13 AM",
+        "message": "Sounds good. I'll share the document by the end of the day.",
+        "type": "received"
+      }
+    ]
+  }
+]

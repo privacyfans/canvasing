@@ -1,0 +1,96 @@
+/*code highlight */
+:not(pre) > code[class*='language-'],
+pre[class*='language-'] {
+  @apply !bg-gray-800 dark:!bg-dark-850;
+}
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+  @apply !text-green-400;
+}
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+  @apply !text-yellow-500;
+}
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+  @apply !text-purple-500;
+}
+.token.keyword {
+  @apply !text-pink-500;
+}
+
+/* React select */
+.css-b62m3t-container {
+  .select__control {
+    @apply border-gray-200 dark:border-dark-800 hover:border-gray-200 dark:hover:border-dark-800 bg-white dark:bg-dark-900;
+
+    .select__input-container,
+    .select__placeholder {
+      @apply text-gray-500 dark:text-dark-500;
+    }
+  }
+  .css-13cymwt-control {
+    @apply bg-white dark:bg-dark-900 hover:border-primary-500 shadow-none;
+  }
+
+  .css-1xc3v61-indicatorContainer,
+  .css-15lsz6c-indicatorContainer {
+    @apply text-gray-500 dark:text-dark-500;
+  }
+
+  .css-1u9des2-indicatorSeparator {
+    @apply bg-gray-200 dark:bg-dark-800;
+  }
+
+  .css-1nmdiq5-menu,
+  .css-1j3tejr-menu {
+    @apply shadow-lg shadow-gray-200 dark:shadow-dark-800 bg-white dark:bg-dark-900 z-10;
+  }
+
+  .css-d7l1ni-option,
+  .css-tr4s17-option {
+    @apply bg-gray-100 dark:bg-dark-850;
+  }
+
+  .css-19bb58m,
+  .css-1dimb5e-singleValue {
+    @apply text-gray-800 dark:text-dark-100;
+  }
+
+  .css-1p3m7a8-multiValue {
+    @apply bg-gray-100 dark:bg-dark-850;
+
+    .css-9jq23d {
+      @apply text-gray-800 dark:text-dark-100;
+    }
+  }
+
+  .css-1g4hodd-multiValue {
+    @apply border-gray-200 dark:border-dark-800;
+
+    .css-9jq23d {
+      @apply text-gray-800 dark:text-dark-100;
+    }
+  }
+
+  .css-p7f2ra-control {
+    @apply border-gray-200 dark:border-dark-800 bg-white dark:bg-dark-900;
+
+    .css-19bb58m {
+      @apply text-gray-500 dark:text-dark-500;
+    }
+  }
+
+  .css-wk5nc7-control {
+    @apply bg-white dark:bg-dark-900 hover:border-primary-500 shadow-none border-primary-500;
+  }
+}

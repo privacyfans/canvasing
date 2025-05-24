@@ -1,0 +1,27 @@
+.rc-slider {
+  .rc-slider-rail {
+    @apply bg-gray-200 dark:bg-dark-800;
+  }
+  .rc-slider-handle {
+    /* Apply base classes */
+    @apply w-2 h-6 rounded-md mt-[-10px] opacity-100;
+
+    /* Add custom properties separately */
+    border-color: theme('colors.gray.200');
+    background-color: theme('colors.white');
+    box-shadow: none;
+
+    /* Dark mode overrides */
+    @apply dark:border-dark-800 dark:bg-dark-900;
+  }
+  .rc-slider-track,
+  .rc-slider-tracks {
+    @apply bg-primary-500;
+  }
+  .rc-slider-dot {
+    @apply bg-white border-gray-200 dark:bg-dark-900 dark:border-dark-800;
+  }
+  .rc-slider-mark-text {
+    @apply text-gray-500 dark:text-dark-500;
+  }
+}

@@ -1,0 +1,85 @@
+@layer components {
+  .fc-theme-standard {
+    --fc-page-bg-color: var(--color-white);
+    --fc-border-color: var(--color-gray-200);
+    --fc-neutral-text-color: var(--color-gray-500);
+    --fc-button-text-color: var(--color-white);
+    --fc-button-bg-color: var(--color-sky-500);
+    --fc-button-border-color: var(--color-sky-500);
+    --fc-button-hover-bg-color: var(--color-sky-600);
+    --fc-button-hover-border-color: var(--color-sky-600);
+    --fc-button-active-bg-color: var(--color-sky-600);
+    --fc-button-active-border-color: var(--color-sky-600);
+    --fc-event-bg-color: var(--color-sky-500);
+    --fc-event-border-color: var(--color-sky-500);
+    --fc-event-text-color: colors.white;
+    --fc-today-bg-color: colors.sky[100];
+    --fc-now-indicator-color: colors.red[500];
+    --fc-neutral-bg-color: colors.gray[100];
+  }
+
+  th.fc-col-header-cell {
+    @apply p-2.5;
+  }
+
+  .fc .fc-toolbar-title {
+    @apply text-16;
+  }
+
+  .fc .fc-toolbar.fc-header-toolbar {
+    @apply mb-space;
+  }
+
+  [data-mode='dark'] .fc-theme-standard {
+    --fc-page-bg-color: var(--color-dark-900);
+    --fc-border-color: var(--color-dark-800);
+    --fc-neutral-text-color: var(--color-dark-500);
+    --fc-today-bg-color: #429fe617;
+    --fc-highlight-color: #429fe617;
+    --fc-neutral-bg-color: var(--color-dark-850);
+  }
+
+  .fc-license-message {
+    @apply hidden;
+  }
+
+  .fc-daygrid-event {
+    @apply px-4 py-1.5 text-base rounded-md;
+  }
+
+  .fc .fc-list-event:hover td {
+    @apply dark:bg-dark-850;
+  }
+
+  .fc-h-event .fc-event-title,
+  .fc-event-time {
+    @apply text-white;
+  }
+
+  .fc-timeline-event {
+    @apply py-1.5 px-4 text-white capitalize;
+  }
+
+  @media (max-width: 767px) {
+    .fc-toolbar.fc-header-toolbar {
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .fc-toolbar.fc-header-toolbar .fc-toolbar-chunk:nth-child(1) {
+      order: 3;
+    }
+
+    .fc-toolbar.fc-header-toolbar .fc-toolbar-chunk:nth-child(2) {
+      order: 1;
+    }
+
+    .fc-toolbar.fc-header-toolbar .fc-toolbar-chunk:nth-child(3) {
+      order: 2;
+    }
+  }
+
+  .fc-license-message {
+    @apply hidden;
+  }
+}

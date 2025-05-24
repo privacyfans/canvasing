@@ -1,0 +1,16 @@
+@layer components {
+  .deckgo-highlight-code-carbon {
+    --deckgo-highlight-code-carbon-background: var(--color-gray-800);
+    --deckgo-highlight-code-carbon-color: #ffffff;
+    --deckgo-highlight-code-token-atrule: var(--color-pink-500);
+    --deckgo-highlight-code-token-function: var(--color-yellow-500);
+    --deckgo-highlight-code-carbon-header-button-red-background: var(
+      --color-red-500
+    );
+    --deckgo-highlight-code-token-selector: var(--color-green-400);
+  }
+
+  [data-mode='dark'] .deckgo-highlight-code-carbon {
+    --deckgo-highlight-code-carbon-background: var(--color-dark-850);
+  }
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "title": "Meeting",
+    "end": "2024-09-01T00:00:00.000Z",
+    "start": "2024-09-01T00:00:00.000Z",
+    "eventTime": "09:30",
+    "extendedProps": {
+      "guests": [],
+      "location": "surat"
+    },
+    "classNames": ["bg-green-500", "hover:bg-green-500", "text-green-50", "p-2"]
+  },
+  {
+    "id": 2,
+    "title": "Update Weekly",
+    "end": "2024-09-07T00:00:00.000Z",
+    "start": "2024-09-07T00:00:00.000Z",
+    "eventTime": "14:15",
+    "extendedProps": {
+      "location": "surat"
+    },
+    "classNames": ["bg-primary-500", "hover:bg-primary-500", "text-primary-50", "p-2"]
+  },
+  {
+    "id": 3,
+    "title": "Family Dinner",
+    "end": "2024-09-15T00:00:00.000Z",
+    "start": "2024-09-15T00:00:00.000Z",
+    "eventTime": "19:00",
+    "extendedProps": {
+      "location": "surat"
+    },
+    "classNames": ["bg-purple-500", "hover:bg-purple-500", "text-purple-50", "p-2"]
+  },
+  {
+    "id": 4,
+    "title": "School Reunion",
+    "end": "2024-09-10T00:00:00.000Z",
+    "start": "2024-09-10T00:00:00.000Z",
+    "eventTime": "11:45",
+    "extendedProps": {
+      "location": "surat"
+    },
+    "classNames": ["bg-sky-500", "hover:bg-sky-500", "text-sky-50", "p-2"]
+  },
+  {
+    "id": 5,
+    "title": "Holiday Tour",
+    "end": "2024-09-15T00:00:00.000Z",
+    "start": "2024-09-15T00:00:00.000Z",
+    "eventTime": "07:30",
+    "extendedProps": {
+      "location": "surat"
+    },
+    "classNames": ["bg-green-500", "hover:bg-green-500", "text-green-50", "p-2"]
+  },
+  {
+    "id": 6,
+    "title": "Meeting",
+    "end": "2024-09-23T00:00:00.000Z",
+    "start": "2024-09-23T00:00:00.000Z",
+    "eventTime": "16:00",
+    "extendedProps": {
+      "location": "surat"
+    },
+    "classNames": ["bg-green-500", "hover:bg-green-500", "text-green-50", "p-2"]
+  },
+  {
+    "id": 7,
+    "title": "Marriage Function",
+    "start": "2024-09-18T00:00:00.000Z",
+    "eventTime": "18:45",
+    "end": "2024-09-18T00:00:00.000Z",
+    "extendedProps": {
+      "location": "surat"
+    },
+    "classNames": ["bg-purple-500", "hover:bg-purple-500", "text-purple-50", "p-2"]
+  }
+]

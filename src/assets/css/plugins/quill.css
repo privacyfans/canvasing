@@ -1,0 +1,92 @@
+@layer components {
+  .ql-container.ql-snow {
+    @apply border-gray-200 dark:border-dark-800;
+  }
+
+  .ql-editor td {
+    @apply border-gray-200 dark:border-dark-800 font-body;
+  }
+
+  .ql-toolbar {
+    &.ql-snow {
+      @apply border-gray-200 dark:border-dark-800;
+
+      .ql-picker-options {
+        @apply shadow-lg shadow-gray-200 dark:shadow-dark-800;
+      }
+
+      .ql-picker.ql-expanded {
+        .ql-picker-label,
+        .ql-picker-options {
+          @apply border-gray-200 dark:border-dark-800;
+        }
+      }
+    }
+  }
+
+  .ql-editor {
+    li[data-list='checked'] > .ql-ui,
+    li[data-list='unchecked'] > .ql-ui {
+      @apply text-gray-500 dark:text-dark-500;
+    }
+
+    &.ql-blank::before {
+      @apply text-gray-500 dark:text-dark-500;
+    }
+  }
+
+  .ql-snow {
+    .ql-stroke,
+    .ql-stroke-miter,
+    .ql-fill,
+    .ql-stroke.ql-fill {
+      @apply stroke-gray-500 dark:stroke-dark-500;
+    }
+
+    .ql-editor blockquote {
+      @apply border-gray-200 dark:border-dark-800;
+    }
+
+    .ql-editor code,
+    .ql-editor .ql-code-block-container {
+      @apply bg-gray-200 dark:bg-dark-850;
+    }
+
+    .ql-editor .ql-code-block-container {
+      @apply bg-gray-800 text-gray-50 dark:bg-dark-700 dark:text-dark-50;
+    }
+
+    .ql-picker-options {
+      @apply bg-white dark:bg-dark-900;
+    }
+
+    .ql-color-picker {
+      &.ql-background .ql-picker-item {
+        @apply bg-white dark:bg-dark-900;
+      }
+
+      &.ql-color .ql-picker-item {
+        @apply bg-gray-800 dark:bg-dark-700;
+      }
+    }
+
+    .ql-color-picker {
+      .ql-picker-item.ql-selected,
+      .ql-picker-item:hover {
+        @apply border-gray-800 dark:border-dark-700;
+      }
+    }
+
+    .ql-tooltip {
+      @apply bg-white border-gray-200 dark:border-dark-800 dark:bg-dark-900 shadow-lg shadow-gray-200 dark:shadow-dark-850;
+    }
+
+    .ql-tooltip input[type='text'],
+    .ql-tooltip a.ql-action::after {
+      @apply border-gray-200 dark:border-dark-800;
+    }
+  }
+  .ql-snow .ql-picker {
+    @apply text-gray-500 dark:text-dark-500;
+  }
+}

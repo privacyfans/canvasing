@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "type": "Weekly",
+    "invoiceStatus": [16, 8, 12, 9]
+  },
+  {
+    "id": 2,
+    "type": "Monthly",
+    "invoiceStatus": [50, 26, 40, 12]
+  },
+  {
+    "id": 3,
+    "type": "Yearly",
+    "invoiceStatus": [600, 83, 168, 37]
+  }
+]

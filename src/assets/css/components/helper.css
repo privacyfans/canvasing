@@ -1,0 +1,50 @@
+@layer base {
+  [data-mode='black-white'] {
+    @apply grayscale;
+  }
+
+  body {
+    @apply text-base font-body bg-body group-data-[layout=boxed]:m-8 group-data-[layout=boxed]:bg-sky-500 dark:bg-dark-950 dark:text-dark-100;
+  }
+
+  :is(h1, h2, h3, h4, h5, h6) {
+    @apply font-heading;
+    font-weight: var(--font-weight-semibold);
+  }
+
+  h1 {
+    @apply text-4xl;
+  }
+
+  h2 {
+    @apply text-3xl;
+  }
+
+  h3 {
+    @apply text-2xl;
+  }
+
+  h4 {
+    @apply text-xl;
+  }
+
+  h5 {
+    @apply text-lg;
+  }
+
+  h6 {
+    @apply text-base;
+  }
+
+  .list-circle {
+    list-style-type: circle;
+  }
+
+  .list-square {
+    list-style-type: square;
+  }
+
+  .list-roman {
+    list-style-type: upper-roman;
+  }
+}

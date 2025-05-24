@@ -1,0 +1,12 @@
+[data-layout='horizontal'][data-mode='dark'] {
+  --color-sidebar: var(--color-dark-900);
+  --color-sidebar-border: var(--color-dark-800);
+  --color-sidebar-divider: var(--color-dark-800);
+  --color-menu-title: var(--color-dark-500);
+  --color-sidebar-text: var(--color-dark-500);
+  --color-sidebar-bg: var(--color-primary-500);
+  --color-sidebar-text-hover: var(--color-primary-500);
+  --color-sidebar-bg-hover: var(--color-primary-500);
+  --color-sidebar-text-active: var(--color-primary-500);
+  --color-sidebar-bg-active: var(--color-primary-500);
+}

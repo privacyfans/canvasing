@@ -1,0 +1,589 @@
+[
+  {
+    "id": 1,
+    "roomId": 1,
+    "name": "Dawn Teague",
+    "avatar": "/assets/images/avatar/user-13.png",
+    "status": "online",
+    "lastMessage": "Haha! Fair enough. I’ll get the big one this time! 🎉",
+    "timestamp": "Just Now",
+    "unread": 2,
+    "lastSeen": "Last seen 2 hr",
+    "messages": [
+      {
+        "id": 1,
+        "sender": "Dawn Teague",
+        "time": "Today, 09:59 AM",
+        "text": "Hey, are we still on for the movie tonight? 🍿🎬",
+        "avatar": "/assets/images/avatar/user-13.png",
+        "type": "received"
+      },
+      {
+        "id": 2,
+        "sender": "You",
+        "time": "Today, 10:00 AM",
+        "text": "Yeah, totally! What time are we meeting? ⏰",
+        "avatar": "/assets/images/avatar/user-17.png",
+        "type": "sent"
+      },
+      {
+        "id": 3,
+        "sender": "You",
+        "time": "Today, 10:13 AM",
+        "text": "How about 7 PM? I heard there’s a new place that just opened nearby, we can grab some food after the movie! 🍔🍕",
+        "avatar": "/assets/images/avatar/user-17.png",
+        "type": "sent"
+      },
+      {
+        "id": 4,
+        "sender": "Dawn Teague",
+        "time": "Today, 10:15 AM",
+        "text": "Sounds perfect! I’ll bring the snacks too. 😄",
+        "avatar": "/assets/images/avatar/user-13.png",
+        "type": "received"
+      },
+      {
+        "id": 5,
+        "sender": "You",
+        "time": "Today, 10:17 AM",
+        "text": "Awesome, see you there! Oh, and don’t forget, you owe me popcorn from last time. 😂🍿",
+        "avatar": "/assets/images/avatar/user-17.png",
+        "type": "sent"
+      },
+      {
+        "id": 6,
+        "sender": "Dawn Teague",
+        "time": "Today, 02:39 PM",
+        "avatar": "/assets/images/avatar/user-13.png",
+        "type": "received",
+        "images": [
+          "/assets/images/gallery/img-01.jpg",
+          "/assets/images/gallery/img-02.jpg",
+          "/assets/images/gallery/img-06.jpg"
+        ],
+        "extraImagesCount": 2
+      },
+      {
+        "id": 7,
+        "sender": "Dawn Teague",
+        "time": "Today, 02:39 PM",
+        "text": "Haha! Fair enough. I’ll get the big one this time! 🎉",
+        "avatar": "/assets/images/avatar/user-13.png",
+        "type": "received"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "roomId": 1,
+    "name": "David Johnson",
+    "avatar": "/assets/images/avatar/user-11.png",
+    "status": "online",
+    "lastMessage": "Hi Shopia, there’s a problem with the mobile view on the homepage. Images aren’t scaling right. Can someone check? #bug",
+    "timestamp": "30 min",
+    "unread": 0,
+    "lastSeen": "Last seen 2 hr",
+    "messages": [
+      {
+        "id": 1,
+        "sender": "David Johnson",
+        "time": "Today, 10:59 AM",
+        "text": "Good morning, Shopia. I wanted to check in on the progress of the website redesign. Are we still on track for the initial launch next month?",
+        "avatar": "/assets/images/avatar/user-11.png",
+        "type": "received"
+      },
+      {
+        "id": 2,
+        "sender": "You",
+        "time": "Today, 10:15 AM",
+        "text": "Great to hear. Will the timeline include testing and quality assurance? I want to ensure everything runs smoothly before the public release.",
+        "avatar": "/assets/images/avatar/user-17.png",
+        "type": "sent"
+      },
+      {
+        "id": 3,
+        "sender": "You",
+        "time": "Today, 10:15 AM",
+        "text": "Absolutely. We’ve allocated two weeks for testing and QA to address any potential issues. This will give us enough time to make adjustments if needed before the official launch date.",
+        "avatar": "/assets/images/avatar/user-17.png",
+        "type": "sent"
+      },
+      {
+        "id": 4,
+        "sender": "David Johnson",
+        "time": "Today, 10:16 AM",
+        "text": "That’s reassuring. Can you also confirm if the payment integration will be fully functional by then? It’s a critical feature for us.",
+        "avatar": "/assets/images/avatar/user-11.png",
+        "type": "received"
+      },
+      {
+        "id": 5,
+        "sender": "You",
+        "time": "Today, 10:17 AM",
+        "text": "Sure, starting on it today. Will update you on the progress. <a href=\"#\" class=\"text-primary-500\">#task154</a>",
+        "avatar": "/assets/images/avatar/user-17.png",
+        "type": "sent"
+      },
+      {
+        "id": 6,
+        "sender": "David Johnson",
+        "time": "Today, 10:17 PM",
+        "avatar": "/assets/images/avatar/user-11.png",
+        "type": "received",
+        "images": ["/assets/images/gallery/img-03.jpg", "/assets/images/gallery/img-04.jpg"],
+        "extraImagesCount": 3
+      },
+      {
+        "id": 7,
+        "sender": "David Johnson",
+        "time": "Today, 10:17 PM",
+        "text": "Hi Shopia, there’s a problem with the mobile view on the homepage. Images aren’t scaling right. Can someone check? <a href=\"#\" class=\"text-red-500\">#bug</a>",
+        "avatar": "/assets/images/avatar/user-11.png",
+        "type": "received"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "roomId": 1,
+    "name": "Andrew Gilbert",
+    "avatar": "/assets/images/avatar/user-18.png",
+    "status": "offline",
+    "lastMessage": "Sounds good! Will we have a call to discuss the mockups?",
+    "timestamp": "Just Now",
+    "unread": 2,
+    "lastSeen": "Last seen 2 hr",
+    "messages": [
+      {
+        "id": 1,
+        "sender": "Andrew Gilbert",
+        "time": "Today, 11:26 AM",
+        "text": "Hi Ms.Shopia! hope you’re well! 😊 Just checking in on the project timeline.",
+        "avatar": "/assets/images/avatar/user-18.png",
+        "type": "received"
+      },
+      {
+        "id": 2,
+        "sender": "You",
+        "time": "Today, 11:27 AM",
+        "text": "Hi Andrew, I’m doing well, thanks! The timeline is still on track. 🚀",
+        "avatar": "/assets/images/avatar/user-17.png",
+        "type": "sent"
+      },
+      {
+        "id": 3,
+        "sender": "You",
+        "time": "Today, 11:27 AM",
+        "text": "Yes, we plan to share the mockups by the end of this week. 🎨",
+        "avatar": "/assets/images/avatar/user-17.png",
+        "type": "sent"
+      },
+      {
+        "id": 4,
+        "sender": "Andrew Gilbert",
+        "time": "Today, 11:28 AM",
+        "text": "Perfect! I look forward to seeing them. Any updates on the content?",
+        "avatar": "/assets/images/avatar/user-18.png",
+        "type": "received"
+      },
+      {
+        "id": 5,
+        "sender": "You",
+        "time": "Today, 11:29 AM",
+        "text": "The content team is finalizing the drafts. We should have everything ready for your review next week. 📝",
+        "avatar": "/assets/images/avatar/user-17.png",
+        "type": "sent"
+      },
+      {
+        "id": 6,
+        "sender": "Andrew Gilbert",
+        "time": "Today, 11:29 PM",
+        "text": "Sounds good! Will we have a call to discuss the mockups?",
+        "type": "received",
+        "images": ["/assets/images/gallery/img-05.jpg", "/assets/images/gallery/img-06.jpg"],
+        "extraImagesCount": 4
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "roomId": 1,
+    "name": "Tyron Derby",
+    "avatar": "/assets/images/avatar/user-20.png",
+    "status": "offline",
+    "lastMessage": "Hi Shopia, there’s a problem with the mobile view on the homepage. Images aren’t scaling right. Can someone check? <a href=\"#\" class=\"text-red-500\">#bug</a> 📱",
+    "timestamp": "Just Now",
+    "unread": 0,
+    "lastSeen": "Last seen 2 hr",
+    "messages": [
+      {
+        "id": 1,
+        "sender": "Tyron Derby",
+        "time": "Today, 02:00 PM",
+        "text": "We need a new website that allows users to create accounts, browse products, and make purchases. Can you provide a rough timeline and cost estimate? 💼",
+        "avatar": "/assets/images/avatar/user-20.png",
+        "type": "received",
+        "badge": "request"
+      },
+      {
+        "id": 2,
+        "sender": "You",
+        "time": "Today, 02:01 PM",
+        "text": "Sure, we can help with that. To provide an accurate estimate, we'll need more details on the features you want. Let's schedule a call this week to discuss specifics, such as product types, payment methods, and design preferences. 📅",
+        "avatar": "/assets/images/avatar/user-17.png",
+        "type": "sent",
+        "badge": "response"
+      },
+      {
+        "id": 3,
+        "sender": "You",
+        "time": "Today, 02:03 PM",
+        "text": "Got it. I’ll investigate and update you shortly. <a href=\"#\" class=\"text-red-500\">#bug</a> 🔍",
+        "avatar": "/assets/images/avatar/user-17.png",
+        "type": "sent",
+        "badge": "update"
+      },
+      {
+        "id": 4,
+        "sender": "Tyron Derby",
+        "time": "Today, 02:04 PM",
+        "text": "Hi <a href=\"#\" class=\"text-primary-500\">@Shopia</a>, can you add the new search feature by Friday? Details are in the #features channel. Thanks! <a href=\"#\" class=\"text-primary-500\">#task</a> ⏳",
+        "avatar": "/assets/images/avatar/user-20.png",
+        "type": "received",
+        "badge": "task"
+      },
+      {
+        "id": 5,
+        "sender": "You",
+        "time": "Today, 02:12 PM",
+        "text": "Sure, starting on it today. Will update you on the progress. <a href=\"#\" class=\"text-primary-500\">#task154</a> 🔄",
+        "avatar": "/assets/images/avatar/user-17.png",
+        "type": "sent",
+        "badge": "confirmation"
+      },
+      {
+        "id": 6,
+        "sender": "Tyron Derby",
+        "time": "Today, 02:15 PM",
+        "text": "Hi Shopia, there’s a problem with the mobile view on the homepage. Images aren’t scaling right. Can someone check? <a href=\"#\" class=\"text-red-500\">#bug</a> 📱",
+        "avatar": "/assets/images/avatar/user-20.png",
+        "type": "received",
+        "images": ["/assets/images/gallery/img-01.jpg", "/assets/images/gallery/img-03.jpg"],
+        "extraImagesCount": 1,
+        "badge": "issue"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "roomId": 1,
+    "name": "Susan Liles",
+    "avatarText": "SL",
+    "status": "online",
+    "lastMessage": "Hey fam! 😅 There's a hiccup with the mobile view on the homepage. The images aren't scaling right. Can someone give it a look? 🧐 #bug",
+    "timestamp": "Yesterday",
+    "unread": 0,
+    "lastSeen": "Last seen 2 hr",
+    "messages": [
+      {
+        "id": 1,
+        "sender": "Susan Liles",
+        "time": "Today, 09:59 AM",
+        "text": "Hey there! 🎉 We need a cool new website that lets users create accounts, browse products, and make purchases. Can you hit me up with a rough timeline and cost estimate? 💰",
+        "avatarName": "SL",
+        "type": "received"
+      },
+      {
+        "id": 2,
+        "sender": "You",
+        "time": "Today, 10:00 AM",
+        "text": "Absolutely! 🤗 We can totally help with that. To get a better estimate, we’ll need more deets on the features you&apos;re dreaming of. How about we schedule a call this week to chat about product types, payment options, and design vibes? 📞✨",
+        "avatar": "/assets/images/avatar/user-17.png",
+        "type": "sent"
+      },
+      {
+        "id": 3,
+        "sender": "You",
+        "time": "Today, 10:15 AM",
+        "text": "Sounds good! I’ll dive into it and keep you posted soon. 🕵️‍♂️🔍 <a href=\"#\" class=\"text-red-500\">#bug</a>",
+        "avatar": "/assets/images/avatar/user-17.png",
+        "type": "sent"
+      },
+      {
+        "id": 4,
+        "sender": "Susan Liles",
+        "time": "Today, 10:11 AM",
+        "text": "Yo <a href=\"#\" class=\"text-primary-500\">@TeamAwesome</a>! 🤗 Can you whip up that new search feature by Friday? Details are hanging out in the #features channel. Thanks a million! 🙌 <a href=\"#\" class=\"text-primary-500\">#task</a>",
+        "avatarName": "SL",
+        "type": "received"
+      },
+      {
+        "id": 5,
+        "sender": "You",
+        "time": "Today, 10:12 AM",
+        "text": "Sure thing! 🚀 I’ll kick off on it today and keep you in the loop. Stay tuned! 🛎️ <a href=\"#\" class=\"text-primary-500\">#task154</a>",
+        "avatar": "/assets/images/avatar/user-17.png",
+        "type": "sent"
+      },
+      {
+        "id": 6,
+        "sender": "Susan Liles",
+        "time": "Today, 12:25 PM",
+        "text": "Hey fam! 😅 There's a hiccup with the mobile view on the homepage. The images aren't scaling right. Can someone give it a look? 🧐 <a href=\"#\" class=\"text-red-500\">#bug</a>",
+        "avatarName": "SL",
+        "type": "received",
+        "images": ["/assets/images/gallery/img-02.jpg", "/assets/images/gallery/img-04.jpg"]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "roomId": 1,
+    "name": "Josh Doyle",
+    "avatarText": "JD",
+    "status": "online",
+    "lastMessage": "Hey Boss, there’s an issue with the mobile view on the homepage. The images aren't scaling correctly. Can someone please take a look? <a href=\"#\" class=\"text-red-500\">#bug</a>",
+    "timestamp": "Yesterday",
+    "unread": 0,
+    "lastSeen": "Last seen 2 hr",
+    "messages": [
+      {
+        "id": 1,
+        "sender": "Josh Doyle",
+        "time": "Today, 10:00 AM",
+        "text": "We are looking to develop a new website that enables users to create accounts, browse products, and make purchases. Could you provide an estimated timeline and cost? 🤔",
+        "avatarName": "JD",
+        "type": "received"
+      },
+      {
+        "id": 2,
+        "sender": "You",
+        "time": "Today, 10:00 AM",
+        "text": "Of course! We can assist with that. To provide an accurate estimate, we’ll need further details on the features you envision. Let's arrange a call this week to discuss specifics like product types, payment methods, and design preferences. 📅",
+        "avatar": "/assets/images/avatar/user-17.png",
+        "type": "sent"
+      },
+      {
+        "id": 3,
+        "sender": "You",
+        "time": "Today, 10:01 AM",
+        "text": "Understood. I’ll look into this and keep you posted shortly. <a href=\"#\" class=\"text-red-500\">#bug</a>",
+        "avatar": "/assets/images/avatar/user-17.png",
+        "type": "sent"
+      },
+      {
+        "id": 4,
+        "sender": "Josh Doyle",
+        "time": "Today, 10:01 AM",
+        "text": "Hello <a href=\"#\" class=\"text-primary-500\">@Boss</a>, could you please add the new search feature by Friday? The details are available in the <a href=\"#\" class=\"text-primary-500\">#features</a> channel. Thank you! <a href=\"#\" class=\"text-primary-500\">#task</a>",
+        "avatarName": "JD",
+        "type": "received"
+      },
+      {
+        "id": 5,
+        "sender": "You",
+        "time": "Today, 10:02 AM",
+        "text": "Absolutely, I’ll start working on it today. I’ll keep you updated on the progress. <a href=\"#\" class=\"text-primary-500\">#task154</a>",
+        "avatar": "/assets/images/avatar/user-17.png",
+        "type": "sent"
+      },
+      {
+        "id": 6,
+        "sender": "Josh Doyle",
+        "time": "Today, 10:03 PM",
+        "text": "Hey Boss, there’s an issue with the mobile view on the homepage. The images aren't scaling correctly. Can someone please take a look? <a href=\"#\" class=\"text-red-500\">#bug</a>",
+        "avatarName": "JD",
+        "type": "received",
+        "images": ["/assets/images/gallery/img-03.jpg", "/assets/images/gallery/img-06.jpg"],
+        "extraImagesCount": 1
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "roomId": 1,
+    "name": "Nicholas Hope",
+    "avatar": "/assets/images/avatar/user-3.png",
+    "status": "offline",
+    "lastMessage": "Hey Shopia! 🙈 We’ve got a little hiccup with the mobile view on the homepage. The images aren’t scaling right! Can someone rescue us from this digital mess? 🦸‍♂️ <a href=\"#\" class=\"text-red-500\">#bug</a>",
+    "timestamp": "Monday",
+    "unread": 1,
+    "lastSeen": "Last seen 2 hr",
+    "messages": [
+      {
+        "id": 1,
+        "sender": "Nicholas Hope",
+        "time": "Today, 11:59 AM",
+        "text": "Hey! 🎉 We need a shiny new website that lets users create accounts, browse products, and make purchases. Can you give me a rough timeline and a ballpark cost estimate? 🏗️💰",
+        "avatar": "/assets/images/avatar/user-3.png",
+        "type": "received"
+      },
+      {
+        "id": 2,
+        "sender": "You",
+        "time": "Today, 12:00 PM",
+        "text": "Of course! 🚀 We can totally help with that. But first, I need more juicy details about the features you want. Let's schedule a call this week to chat about product types, payment methods, and your wild design dreams! 🎨✨",
+        "avatar": "/assets/images/avatar/user-17.png",
+        "type": "sent"
+      },
+      {
+        "id": 3,
+        "sender": "You",
+        "time": "Today, 12:00 PM",
+        "text": "Got it! I’ll do some sleuthing and keep you posted. Just don’t expect me to wear a detective hat! 🕵️‍♂️🔍 <a href=\"#\" class=\"text-red-500\">#bug</a>",
+        "avatar": "/assets/images/avatar/user-17.png",
+        "type": "sent"
+      },
+      {
+        "id": 4,
+        "sender": "Nicholas Hope",
+        "time": "Today, 12:11 PM",
+        "text": "Hey <a href=\"#\" class=\"text-primary-500\">@Shopia</a>! 😄 Can you sprinkle some magic and add that new search feature by Friday? Details are in the #features channel. Thanks a ton! You’re a lifesaver! 🙌 <a href=\"#\" class=\"text-primary-500\">#task</a>",
+        "avatar": "/assets/images/avatar/user-3.png",
+        "type": "received"
+      },
+      {
+        "id": 5,
+        "sender": "You",
+        "time": "Today, 12:12 PM",
+        "text": "Absolutely! Starting on it right now. It’s gonna be awesome, or I’ll eat my hat! 🎩😆 Will keep you updated on the progress! <a href=\"#\" class=\"text-primary-500\">#task154</a>",
+        "avatar": "/assets/images/avatar/user-17.png",
+        "type": "sent"
+      },
+      {
+        "id": 6,
+        "sender": "Nicholas Hope",
+        "time": "Today, 01:39 PM",
+        "text": "Hey Shopia! 🙈 We’ve got a little hiccup with the mobile view on the homepage. The images aren’t scaling right! Can someone rescue us from this digital mess? 🦸‍♂️ <a href=\"#\" class=\"text-red-500\">#bug</a>",
+        "avatar": "/assets/images/avatar/user-3.png",
+        "type": "received",
+        "images": ["/assets/images/gallery/img-02.jpg", "/assets/images/gallery/img-05.jpg"],
+        "extraImagesCount": 2
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "roomId": 1,
+    "name": "Louise Bryan",
+    "avatarText": "LB",
+    "status": "offline",
+    "lastMessage": "Hi, there's a mobile view issue. Images aren't scaling! <a href=\"#\" class=\"text-red-500\">#bug</a>",
+    "timestamp": "Monday",
+    "unread": 0,
+    "lastSeen": "Last seen 2 hr",
+    "messages": [
+      {
+        "id": 1,
+        "sender": "Louise Bryan",
+        "time": "Today, 08:59 AM",
+        "text": "Hey! We need a new website. Timeline and cost?",
+        "avatarName": "LB",
+        "type": "received"
+      },
+      {
+        "id": 2,
+        "sender": "You",
+        "time": "Today, 09:00 AM",
+        "text": "Sure! Need more details. Call this week?",
+        "avatar": "/assets/images/avatar/user-17.png",
+        "type": "sent"
+      },
+      {
+        "id": 3,
+        "sender": "You",
+        "time": "Today, 09:05 AM",
+        "text": "Got it! I’ll check it out. <a href=\"#\" class=\"text-red-500\">#bug</a>",
+        "avatar": "/assets/images/avatar/user-17.png",
+        "type": "sent"
+      },
+      {
+        "id": 4,
+        "sender": "Louise Bryan",
+        "time": "Today, 09:05 AM",
+        "text": "Hey <a href=\"#\" class=\"text-primary-500\">@Shopia</a>, can you add the search feature by Friday? Thanks! <a href=\"#\" class=\"text-primary-500\">#task</a>",
+        "avatarName": "LB",
+        "type": "received"
+      },
+      {
+        "id": 5,
+        "sender": "You",
+        "time": "Today, 09:06 AM",
+        "text": "On it! Will keep you updated. <a href=\"#\" class=\"text-primary-500\">#task154</a>",
+        "avatar": "/assets/images/avatar/user-17.png",
+        "type": "sent"
+      },
+      {
+        "id": 6,
+        "sender": "Louise Bryan",
+        "time": "Today, 09:06 PM",
+        "text": "Hi, there's a mobile view issue. Images aren't scaling! <a href=\"#\" class=\"text-red-500\">#bug</a>",
+        "avatarName": "LB",
+        "type": "received",
+        "images": ["/assets/images/gallery/img-01.jpg", "/assets/images/gallery/img-04.jpg"],
+        "extraImagesCount": 3
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "roomId": 1,
+    "name": "Sirkka Hakola",
+    "avatar": "/assets/images/avatar/user-6.png",
+    "status": "offline",
+    "lastMessage": "This time, let’s stick to fruits and veggies! Unless they have gummy fruits... 🍓😂",
+    "timestamp": "Saturday",
+    "unread": 0,
+    "lastSeen": "Last seen 2 hr",
+    "messages": [
+      {
+        "id": 1,
+        "sender": "Sirkka Hakola",
+        "time": "Today, 04:59 AM",
+        "text": "So, are we hitting the grocery store this Sunday? 🍏🥦",
+        "avatar": "/assets/images/avatar/user-6.png",
+        "type": "received"
+      },
+      {
+        "id": 2,
+        "sender": "You",
+        "time": "Today, 05:00 AM",
+        "text": "Absolutely! Just promise me we won't end up in the candy aisle again. 😂🍬",
+        "avatar": "/assets/images/avatar/user-17.png",
+        "type": "sent"
+      },
+      {
+        "id": 3,
+        "sender": "You",
+        "time": "Today, 05:01 AM",
+        "text": "Last time, I bought enough gummy bears to feed a small army! 🍬🪖",
+        "avatar": "/assets/images/avatar/user-17.png",
+        "type": "sent"
+      },
+      {
+        "id": 4,
+        "sender": "Sirkka Hakola",
+        "time": "Today, 05:01 AM",
+        "text": "Haha, and then we had a gummy bear party! 🎉😂",
+        "avatar": "/assets/images/avatar/user-6.png",
+        "type": "received"
+      },
+      {
+        "id": 5,
+        "sender": "You",
+        "time": "Today, 05:01 AM",
+        "text": "Right? Who knew gummy bears could cause so much chaos! 😆🧸",
+        "avatar": "/assets/images/avatar/user-17.png",
+        "type": "sent"
+      },
+      {
+        "id": 6,
+        "sender": "Sirkka Hakola",
+        "time": "Today, 05:02 AM",
+        "text": "This time, let’s stick to fruits and veggies! Unless they have gummy fruits... 🍓😂",
+        "avatar": "/assets/images/avatar/user-6.png",
+        "type": "received"
+      }
+    ]
+  }
+]

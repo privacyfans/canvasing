@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url><loc>https://domiex-next-default-build.vercel.app</loc><lastmod>2025-04-19T06:48:27.909Z</lastmod></url>
+<url><loc>https://domiex-next-default-build.vercel.app/auth/account-deactivation-basic</loc><lastmod>2025-04-19T06:48:27.909Z</lastmod></url>
+<url><loc>https://domiex-next-default-build.vercel.app/auth/account-deactivation-creative</loc><lastmod>2025-04-19T06:48:27.909Z</lastmod></url>
+<url><loc>https://domiex-next-default-build.vercel.app/dashboards/ecommerce</loc><lastmod>2025-04-19T06:48:27.909Z</lastmod></url>
+<url><loc>https://domiex-next-default-build.vercel.app/auth/account-deactivation-modern</loc><lastmod>2025-04-19T06:48:27.909Z</lastmod></url>
+<url><loc>https://domiex-next-default-build.vercel.app/auth/forgot-password-basic</loc><lastmod>2025-04-19T06:48:27.909Z</lastmod></url>
+<url><loc>https://domiex-next-default-build.vercel.app/auth/forgot-password-modern</loc><lastmod>2025-04-19T06:48:27.909Z</lastmod></url>
+<url><loc>https://domiex-next-default-build.vercel.app/auth/forgot-password-creative</loc><lastmod>2025-04-19T06:48:27.909Z</lastmod></url>
+<url><loc>https://domiex-next-default-build.vercel.app/auth/reset-password-basic</loc><lastmod>2025-04-19T06:48:27.909Z</lastmod></url>
+<url><loc>https://domiex-next-default-build.vercel.app/auth/reset-password-creative</loc><lastmod>2025-04-19T06:48:27.909Z</lastmod></url>
+<url><loc>https://domiex-next-default-build.vercel.app/auth/reset-password-modern</loc><lastmod>2025-04-19T06:48:27.909Z</lastmod></url>
+<url><loc>https://domiex-next-default-build.vercel.app/auth/signin-basic</loc><lastmod>2025-04-19T06:48:27.909Z</lastmod></url>
+<url><loc>https://domiex-next-default-build.vercel.app/auth/signin-creative</loc><lastmod>2025-04-19T06:48:27.909Z</lastmod></url>
+<url><loc>https://domiex-next-default-build.vercel.app/auth/signin-modern</loc><lastmod>2025-04-19T06:48:27.909Z</lastmod></url>
+<url><loc>https://domiex-next-default-build.vercel.app/auth/signup-creative</loc><lastmod>2025-04-19T06:48:27.909Z</lastmod></url>
+<url><loc>https://domiex-next-default-build.vercel.app/auth/signup-modern</loc><lastmod>2025-04-19T06:48:27.909Z</lastmod></url>
+<url><loc>https://domiex-next-default-build.vercel.app/auth/successful-password-basic</loc><lastmod>2025-04-19T06:48:27.909Z</lastmod></url>
+<url><loc>https://domiex-next-default-build.vercel.app/auth/successful-password-modern</loc><lastmod>2025-04-19T06:48:27.909Z</lastmod></url>
+<url><loc>https://domiex-next-default-build.vercel.app/auth/two-step-verification-basic</loc><lastmod>2025-04-19T06:48:27.909Z</lastmod></url>
+<url><loc>https://domiex-next-default-build.vercel.app/auth/two-step-verification-creative</loc><lastmod>2025-04-19T06:48:27.909Z</lastmod></url>
+<url><loc>https://domiex-next-default-build.vercel.app/auth/successful-password-creative</loc><lastmod>2025-04-19T06:48:27.909Z</lastmod></url>
+<url><loc>https://domiex-next-default-build.vercel.app/auth/two-step-verification-modern</loc><lastmod>2025-04-19T06:48:27.909Z</lastmod></url>
+<url><loc>https://domiex-next-default-build.vercel.app/auth/signup-basic</loc><lastmod>2025-04-19T06:48:27.909Z</lastmod></url>
+</urlset>

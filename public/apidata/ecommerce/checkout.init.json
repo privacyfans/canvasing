@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "type": "Home",
+    "firstName": "Jordan",
+    "lastName": "Roughley",
+    "phone": "(201) 518 4185",
+    "alternatePhone": "(201) 518 4284",
+    "address": "13833 Jayda Squares Apt. 849, Sharonville",
+    "city": "Washington",
+    "country": "USA",
+    "zip": "33199 8539"
+  },
+  {
+    "id": 2,
+    "type": "Work",
+    "firstName": "Prof. Ronaldo ",
+    "lastName": "Funk",
+    "phone": "(617) 941 9815",
+    "alternatePhone": "(617) 941 1522",
+    "address": "6602 Schroeder Ville Apt. 066",
+    "city": "Bennytown",
+    "country": "USA",
+    "zip": "62144 1437"
+  }
+]

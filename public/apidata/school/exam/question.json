@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "question": "What is an important factor of management information system?",
+    "options": ["Data", "System", "Process", "All of the above"],
+    "type": "MCQ",
+    "difficulty": "Hard",
+    "status": "New"
+  },
+  {
+    "id": 2,
+    "question": "The data Flow Diagram is the basic component of …………… system",
+    "options": ["Conceptual", "Logical", "Physical", "Sequential"],
+    "type": "MCQ",
+    "difficulty": "Hard",
+    "status": "New"
+  },
+  {
+    "id": 3,
+    "question": "A desirable property of module is",
+    "options": ["Independency", "Low Cohesiveness", "High Coupling", "Multi Functional"],
+    "type": "MCQ",
+    "difficulty": "Hard",
+    "status": "New"
+  },
+  {
+    "id": 4,
+    "question": "Which of the following UML diagrams has a static view?",
+    "options": [
+      "Collaboration Diagram",
+      "Use-Case Diagram",
+      "State chart Diagram",
+      "Activity Diagram"
+    ],
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "status": "Old"
+  },
+  {
+    "id": 5,
+    "question": "What is the full form of HTML?",
+    "options": [
+      "Hyper text markup language",
+      "Hyphenation text markup language",
+      "Hyphenation test marking language",
+      "Hyper text marking language"
+    ],
+    "type": "MCQ",
+    "difficulty": "Hard",
+    "status": "New"
+  },
+  {
+    "id": 6,
+    "question": "What is the role of the Just-In-Time (JIT) compiler in the .NET Framework?",
+    "options": [
+      "To translate source code into assembly language",
+      "To convert assembly language into machine code at runtime",
+      "To interpret bytecode instructions directly",
+      "To manage the loading and unloading of assemblies"
+    ],
+    "type": "MCQ",
+    "difficulty": "Hard",
+    "status": "New"
+  },
+  {
+    "id": 7,
+    "question": "Which of the following is an attribute of <Table> tag?",
+    "options": ["Border", "Align", "Cellpadding", "All of the above"],
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "status": "Old"
+  },
+  {
+    "id": 8,
+    "question": "Which organization defines the Web Standards?",
+    "options": [
+      "Microsoft Corporation",
+      "IBM Corporation",
+      "World Wide Web Consortium",
+      "Apple Inc."
+    ],
+    "type": "MCQ",
+    "difficulty": "Hard",
+    "status": "New"
+  },
+  {
+    "id": 9,
+    "question": "Is UI/UX a good career?",
+    "options": [],
+    "type": "Q & A",
+    "difficulty": "Normal",
+    "status": "Old"
+  },
+  {
+    "id": 10,
+    "question": "Can AI replace web developers?",
+    "options": [],
+    "type": "Q & A",
+    "difficulty": "Hard",
+    "status": "New"
+  }
+]

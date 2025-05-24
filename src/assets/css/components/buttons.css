@@ -1,0 +1,53 @@
+@layer components {
+  button {
+    cursor: pointer;
+  }
+
+  .btn {
+    @apply inline-block cursor-pointer py-[0.5625rem] px-6 text-center border rounded-md border-transparent bg-transparent text-sm transition-all duration-200 ease-linear;
+  }
+
+  .btn.btn-icon {
+    @apply p-0 size-btn-icon flex items-center justify-center;
+  }
+
+  .btn.btn-xs {
+    @apply px-2 py-1 text-11;
+  }
+
+  .btn.btn-sm {
+    @apply px-3 py-1.5 text-xs;
+  }
+
+  .btn.btn-md {
+    @apply px-4 py-2 text-13;
+  }
+
+  .btn.btn-lg {
+    @apply py-3 px-7 text-16;
+  }
+
+  .btn.btn-sub-gray {
+    @apply dark:bg-dark-850 dark:text-dark-200 dark:hover:bg-dark-800 dark:hover:text-dark-100;
+  }
+
+  .btn-icon-text {
+    @apply flex items-center justify-center gap-2;
+  }
+
+  .btn-icon-overlay {
+    @apply relative flex overflow-hidden ltr:pl-16 rtl:pr-16;
+  }
+
+  .btn-icon-overlay .icon {
+    @apply absolute inset-y-0 w-[38px] flex items-center justify-center ltr:left-0 rtl:right-0 bg-white/10;
+  }
+
+  .btn-icon-overlay.right {
+    @apply ltr:pr-16 ltr:pl-6 rtl:pr-6 rtl:pl-16;
+  }
+
+  .btn-icon-overlay.right .icon {
+    @apply ltr:right-0 ltr:left-auto rtl:left-0 rtl:right-auto;
+  }
+}

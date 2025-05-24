@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "X-Ray",
+    "clinical": "",
+    "impressions": "",
+    "date": "29 May, 2024",
+    "status": "Pending",
+    "doctor": "Dr. Smith"
+  },
+  {
+    "id": 2,
+    "name": "Blood Test",
+    "clinical": "",
+    "impressions": "",
+    "date": "05 May, 2024",
+    "status": "Completed",
+    "doctor": "Dr. Johnson"
+  },
+  {
+    "id": 3,
+    "name": "MRI",
+    "date": "05 Feb, 2024",
+    "clinical": "",
+    "impressions": "",
+    "status": "Completed",
+    "doctor": "Dr. Williams"
+  },
+  {
+    "id": 4,
+    "name": "CT Scan",
+    "date": "09 June, 2024",
+    "clinical": "",
+    "impressions": "",
+    "status": "In Progress",
+    "doctor": "Dr. Brown"
+  },
+  {
+    "id": 5,
+    "name": "Ultrasound",
+    "date": "19 Jan, 2024",
+    "clinical": "",
+    "impressions": "",
+    "status": "Completed",
+    "doctor": "Dr. Wilson"
+  },
+  {
+    "id": 6,
+    "name": "X-Ray",
+    "date": "11 Dec, 2023",
+    "clinical": "",
+    "impressions": "",
+    "status": "Completed",
+    "doctor": "Dr. Smith"
+  }
+]

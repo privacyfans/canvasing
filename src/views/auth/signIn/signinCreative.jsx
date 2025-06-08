@@ -53,13 +53,13 @@ const SigninCreative = () => {
 
     // If all validations pass
     showAlert(
-      `You've successfully signed in to Domiex!`,
+      `You've successfully signed in to CNVSG!`,
       'bg-green-100 text-green-500'
     )
 
     // Redirect to index.html after a short delay
     setTimeout(() => {
-      router.push('/dashboards/ecommerce') // Adjust the path as needed
+      router.push('/dashboards') // Adjust the path as needed
     }, 1000) // Adjust the delay as needed
   }
 

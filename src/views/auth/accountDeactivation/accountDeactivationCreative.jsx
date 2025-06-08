@@ -71,7 +71,7 @@ const AccountDeactivationCreative = () => {
                     Account Deactivation
                   </h4>
                   <p className="mb-6 text-center text-gray-500">
-                    Domiex Security and Privacy
+                    CNVSG Security and Privacy
                   </p>
                   <div className="flex gap-3 mb-3">
                     <div className="shrink-0">

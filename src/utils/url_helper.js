@@ -76,3 +76,7 @@ export const NEXT_PUBLIC_INVOICE_API = '/api/invoice'
 export const NEXT_PUBLIC_DEFAULT_CHAT_API = '/api/default_chat'
 export const NEXT_PUBLIC_CONTACT_CHAT_API = '/api/contact_chat'
 export const NEXT_PUBLIC_GROUP_CHAT_API = '/api/group_chat'
+
+// PROSPECT
+export const NEXT_PUBLIC_PROSPECT_API = '/api/prospect'
+export const NEXT_PUBLIC_PROSPECT_LIST_API = '/api/prospect/list'

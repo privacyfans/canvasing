@@ -7,6 +7,7 @@ import Link from 'next/link'
 
 import user10 from '@assets/images/avatar/user-10.png'
 import user11 from '@assets/images/avatar/user-11.png'
+import user17 from '@assets/images/avatar/user-17.png'
 import user18 from '@assets/images/avatar/user-18.png'
 import logowhite from '@assets/images/logo-white.png'
 import logo from '@assets/images/main-logo.png'
@@ -28,7 +29,9 @@ import { changeLayoutMode, changeSidebarColor } from '@src/slices/thunk'
 import {
   BellRing,
   CalendarRange,
+  ChevronDown,
   LayoutGrid,
+  LogOut,
   Moon,
   PanelRightOpen,
   Search,
@@ -36,6 +39,7 @@ import {
   ShoppingBag,
   Sun,
 } from 'lucide-react'
+import { signOut, useSession } from 'next-auth/react'
 import Flatpickr from 'react-flatpickr'
 import { useDispatch, useSelector } from 'react-redux'
 import SimpleBar from 'simplebar-react'
@@ -44,6 +48,7 @@ const TopBar = ({ searchMenu, searchText, toggleSidebar }) => {
   const { layoutMode, isSettingModalOpen, layoutSidebarColor } = useSelector(
     (state) => state.Layout
   )
+  const { data: session } = useSession()
   const dispatch = useDispatch()
   const [scrolled, setScrolled] = useState(false)
   const [open, setOpen] = useState(false)
@@ -112,7 +117,7 @@ const TopBar = ({ searchMenu, searchText, toggleSidebar }) => {
             {/* Logo */}
             <div className="navbar-brand">
               <div className="logos">
-                <Link href="/dashboards/ecommerce">
+                <Link href="/dashboards">
                   <Image
                     src={logo}
                     aria-label="Read more about Seminole tax hike"
@@ -152,192 +157,98 @@ const TopBar = ({ searchMenu, searchText, toggleSidebar }) => {
               />
             </div>
             <div className="flex items-center gap-2 ltr:ml-auto rtl:mr-auto">
-              {/* Settings (Layout modal) */}
-              <button
-                className="hidden topbar-link md:flex"
-                title="topbar-link"
-                type="button"
-                onClick={handleThemeModal}>
-                <Settings className="size-4" />
-              </button>
-              <button
-                className="topbar-link"
-                title="Toggle Layout Mode"
-                onClick={() => {
-                  handleChangeLayoutMode(
-                    layoutMode === LAYOUT_MODE_TYPES.LIGHT
-                      ? LAYOUT_MODE_TYPES.DARK
-                      : LAYOUT_MODE_TYPES.LIGHT
-                  )
-                  if (layoutSidebarColor === SIDEBAR_COLOR.DARK) {
-                    dispatch(changeSidebarColor(SIDEBAR_COLOR.LIGHT))
-                  }
-                }}>
-                {layoutMode === LAYOUT_MODE_TYPES.LIGHT ||
-                layoutMode === LAYOUT_MODE_TYPES.DEFAULT ||
-                layoutMode === LAYOUT_MODE_TYPES.BLACK_WHITE ? (
-                  <Moon className="size-4" />
-                ) : (
-                  <Sun className={`size-4 `} />
-                )}
-              </button>
-              {/* Tool Apps */}
-              <button
-                className="hidden topbar-link sm:flex"
-                title="tools-apps-modal"
-                data-modal-target="toolsAppsModal"
-                onClick={handleOpenModal}>
-                <LayoutGrid className="size-4" />
-              </button>
-              <button
-                className="relative hidden topbar-link sm:flex"
-                title="shopping-cart"
-                data-drawer-target="basicEnd"
-                onClick={handleOpenCardModal}>
-                <ShoppingBag className="size-4" />
-                <span className="absolute right-0 p-0 border-2 border-white rounded-full dark:border-dark-900 badge badge-square badge-solid-red top-3.5 size-5">
-                  3
-                </span>
-              </button>
-
-              {/* Notifications */}
-
-              <Dropdown
-                position="right"
-                trigger="click"
-                dropdownClassName="dropdown">
-                <DropdownButton colorClass="topbar-link">
-                  <span className="relative">
-                    <BellRing className="size-4" />
-                    <div className="absolute top-0 -mt-1 bg-green-500 rounded-full ltr:-mr-1 rtl:-ml-1 ltr:right-0 rtl:left-0 size-2 animate-ping" />
-                    <div className="absolute top-0 -mt-1 bg-green-500 rounded-full ltr:-mr-1 rtl:-ml-1 ltr:right-0 rtl:left-0 size-2" />
-                  </span>
-                </DropdownButton>
-
-                <DropdownMenu menuClass="!w-96">
-                  <div className="flex items-center gap-3 p-4">
-                    <h6 className="grow">Notification (4)</h6>
-                    <Link
-                      href="#!"
-                      className="text-sm shrink-0 link link-primary">
-                      Mark All as read
-                    </Link>
-                  </div>
-                  <div className="py-4 border-t border-gray-200 dark:border-dark-800">
-                    <SimpleBar className="px-4 max-h-[calc(100vh_-_170px)]">
-                      <div className="flex flex-col gap-3">
-                        <Link
-                          href="#!"
-                          className="relative flex gap-3 p-2 transition duration-300 ease-linear rounded-md hover:bg-gray-100 [&.unread]:bg-gray-100 dark:[&.unread]:bg-dark-850 dark:hover:bg-dark-850 unread">
-                          <Image
-                            src={user10}
-                            alt="usetimg"
-                            className="rounded-full size-7 shrink-0"
-                          />
-                          <div className="grow">
-                            <p className="mb-0.5 text-sm">
-                              <span className="font-medium">Donna Berlin</span>
-                              wants to edit Domiex Admin & dashboards
-                            </p>
-                            <p className="text-xs text-gray-500 dark:text-dark-500">
-                              5 min ago
-                            </p>
-                          </div>
-                        </Link>
-                        <Link
-                          href="#!"
-                          className="relative flex gap-3 p-2 transition duration-300 ease-linear rounded-md hover:bg-gray-100 [&.unread]:bg-gray-100 dark:[&.unread]:bg-dark-850 dark:hover:bg-dark-850">
-                          <Image
-                            src={user11}
-                            alt="userImg"
-                            className="rounded-full size-7 shrink-0"
-                          />
-                          <div className="grow">
-                            <p className="mb-0.5 text-sm">
-                              <span className="font-medium">Liam Clark</span>
-                              commented in domiex
-                            </p>
-                            <p className="text-xs text-gray-500 dark:text-dark-500">
-                              8 min ago
-                            </p>
-                            <p className="mt-3 text-sm line-clamp-2">
-                              &quot;Greetings, I&apos;m making blazor web
-                              assembly app / MAUI. Does your template available
-                              for this? &quot;
-                            </p>
-                          </div>
-                        </Link>
-                        <Link
-                          href="#!"
-                          className="relative flex gap-3 p-2 transition duration-300 ease-linear rounded-md hover:bg-gray-100 [&.unread]:bg-gray-100 dark:[&.unread]:bg-dark-850 dark:hover:bg-dark-850">
-                          <div className="flex items-center justify-center text-xs text-gray-500 bg-gray-100 rounded-full size-7 shrink-0">
-                            LN
-                          </div>
-                          <div className="grow">
-                            <p className="mb-0.5 text-sm">
-                              <span className="font-medium">Lucas Nguyen</span>
-                              competed create new components
-                            </p>
-                            <p className="text-xs text-gray-500 dark:text-dark-500">
-                              01:15 PM
-                            </p>
-                          </div>
-                        </Link>
-                        <Link
-                          href="#!"
-                          className="relative flex gap-3 p-2 transition duration-300 ease-linear rounded-md hover:bg-gray-100 [&.unread]:bg-gray-100 dark:[&.unread]:bg-dark-850 dark:hover:bg-dark-850">
-                          <Image
-                            src={user18}
-                            alt="userImg"
-                            className="rounded-full size-7 shrink-0"
-                          />
-                          <div className="grow">
-                            <p className="mb-0.5 text-sm">
-                              <span className="font-medium">James Taylor</span>
-                              marked your order.
-                            </p>
-                            <span className="mb-2 badge badge-primary">
-                              Completed
-                            </span>
-                            <p className="text-xs text-gray-500 dark:text-dark-500">
-                              03:57 AM
-                            </p>
-                          </div>
-                        </Link>
+              {session && (
+                <Dropdown
+                  position="bottom-right"
+                  trigger="click"
+                  dropdownClassName="dropdown">
+                  <DropdownButton colorClass="flex items-center gap-2 p-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800">
+                    <Image
+                      src={user17}
+                      alt="user"
+                      className="h-8 w-8 rounded-full"
+                      width={32}
+                      height={32}
+                    />
+                    <div className="hidden lg:block">
+                      <h6 className="font-medium text-sm">
+                        {session.user.name ?? 'Jason Statham'}
+                      </h6>
+                      <p className="text-xs text-gray-500">
+                        {session.user.userId ?? 'ID: 150001'}
+                      </p>
+                    </div>
+                    <ChevronDown className="size-4 text-gray-500" />
+                  </DropdownButton>
+                  <DropdownMenu menuClass="z-50 p-5 bg-white rounded-md shadow-lg !w-72 !right-0">
+                    <div className="flex items-center gap-3 mb-4">
+                      <Image
+                        src={user17}
+                        alt="user"
+                        className="rounded-full size-12"
+                      />
+                      <div className="flex-1">
+                        <h6 className="font-semibold text-gray-900">
+                          {session.user.name ?? 'Jason Statham'}
+                        </h6>
+                        <p className="text-sm text-gray-600">
+                          {session.user.email ?? 'hello@example.com'}
+                        </p>
                       </div>
-                    </SimpleBar>
-                  </div>
-                </DropdownMenu>
-              </Dropdown>
+                    </div>
 
-              <LanguageDropdown />
-              {/* Schedule */}
-              <button
-                onClick={handleScheduleClick}
-                type="button"
-                className="items-center justify-center hidden px-2 link link-primary group-data-[nav-type=pattern]:text-white/75 group-data-[nav-type=pattern]:border-primary-400 border border-gray-200 rounded-md md:flex dark:border-dark-800 h-9">
-                <CalendarRange className="ltr:md:mr-2 rtl:md:ml-2 size-4" />
-                <span className="hidden md:inline-block">Schedule</span>
-              </button>
-              <Flatpickr
-                ref={flatpickrRef}
-                options={{
-                  mode: 'range',
-                  dateFormat: 'Y-m-d',
-                  defaultDate: [today],
-                }}
-                className="absolute right-0 opacity-0 pointer-events-none"
-              />
+                    {/* User Info Section */}
+                    <div className="space-y-3 py-3 border-t border-gray-200 dark:border-dark-800">
+                      <div className="flex justify-between items-center">
+                        <span className="text-sm font-medium text-gray-700">User ID:</span>
+                        <span className="text-sm text-gray-600 font-mono">
+                          {session.user.userId ?? 'N/A'}
+                        </span>
+                      </div>
+                      
+                      <div className="flex justify-between items-center">
+                        <span className="text-sm font-medium text-gray-700">Role:</span>
+                        <span className="text-sm text-blue-600 bg-blue-50 px-2 py-1 rounded-md">
+                          {session.user.role ?? 'N/A'}
+                        </span>
+                      </div>
+                      
+                      {session.user.permissions && session.user.permissions.length > 0 && (
+                        <div>
+                          <span className="text-sm font-medium text-gray-700 block mb-2">Permissions:</span>
+                          <div className="flex flex-wrap gap-1">
+                            {session.user.permissions.map((permission, index) => (
+                              <span 
+                                key={index}
+                                className="text-xs text-green-700 bg-green-50 px-2 py-1 rounded-md"
+                              >
+                                {permission}
+                              </span>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                    </div>
+
+                    <div className="pt-3 mt-3 border-t border-gray-200 dark:border-dark-800">
+                      <Link
+                        href="/auth/signin"
+                        className="!px-0 !py-2 before:hidden link link-primary flex items-center hover:bg-red-50 rounded-md transition-colors"
+                        onClick={() =>
+                          signOut({ callbackUrl: '/auth/signin' })
+                        }>
+                        <LogOut className="inline-block mr-2 size-4" />
+                        Log Out
+                      </Link>
+                    </div>
+                  </DropdownMenu>
+                </Dropdown>
+              )}
             </div>
           </div>
         </div>
       </div>
-      <ToolsAppsModal open={open} handleCloseModal={handleCloseModal} />
-
-      <SettingsModal
-        open={isSettingModalOpen}
-        handleCloseModal={handleCloseThemeModal}
-      />
+     
       <div className="hidden overflow-hidden nav-pattern">
         <svg
           xmlns="http://www.w3.org/2000/svg"

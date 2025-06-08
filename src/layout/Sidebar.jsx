@@ -6,7 +6,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 
-import user17 from '@assets/images/avatar/user-17.png'
 import logoSmDark from '@assets/images/logo-sm-dark.png'
 import logoSm from '@assets/images/logo-sm-white.png'
 import logoWhite from '@assets/images/logo-white.png'
@@ -19,13 +18,11 @@ import {
 import { LAYOUT_TYPES, SIDEBAR_SIZE } from '@src/components/constants/layout'
 import {
   AlignStartVertical,
-  BellDot,
   BookOpen,
   Box,
   Calendar,
   ChartBarBig,
   ChartScatter,
-  ChevronDown,
   Clipboard,
   Dna,
   Feather,
@@ -33,20 +30,16 @@ import {
   Folders,
   Gauge,
   Gem,
-  Headset,
   Hospital,
   KeyRound,
   LifeBuoy,
-  LogOut,
   Mail,
   Map,
   MessagesSquare,
   Monitor,
   PencilRuler,
-  Presentation,
   RemoveFormatting,
   School,
-  Settings,
   Shapes,
   ShoppingBag,
   Table2,
@@ -55,14 +48,12 @@ import {
   Trophy,
   UsersRound,
 } from 'lucide-react'
-import { signOut, useSession } from 'next-auth/react'
 import { useTranslation } from 'react-i18next'
 import { useSelector } from 'react-redux'
 import SimpleBar from 'simplebar-react'
 
 const Sidebar = ({ searchSidebar, isSidebarOpen, toggleSidebar }) => {
   const { t } = useTranslation()
-  const { data: session } = useSession()
   const [sidebarDropdownPosition, setSidebarDropdownPosition] =
     useState('top-right')
   const router = usePathname()
@@ -137,8 +128,7 @@ const Sidebar = ({ searchSidebar, isSidebarOpen, toggleSidebar }) => {
   const handleMenuClick = (e) => {
     e.stopPropagation()
   }
-  if (session) {
-    return (
+  return (
       <>
         {isSidebarOpen === true && (
           <>
@@ -193,108 +183,6 @@ const Sidebar = ({ searchSidebar, isSidebarOpen, toggleSidebar }) => {
                     </Link>
                   </div>
 
-                  <div className="relative group-data-[layout=horizontal]:hidden group-data-[sidebar=small]:w-full">
-                    <div className="block dropdown">
-                      <Dropdown
-                        toggleSidebar={toggleSidebar}
-                        position=""
-                        trigger="click"
-                        dropdownClassName="dropdown w-full">
-                        <DropdownButton colorClass="flex items-center w-full gap-2 p-4 text-left group-data-[sidebar=small]:px-0">
-                          <Image
-                            src={user17}
-                            alt="user"
-                            className="h-10 rounded-md shrink-0 group-data-[sidebar=small]:mx-auto"
-                            width={40}
-                            height={40}
-                          />
-                          <div className="grow group-data-[sidebar=icon]:hidden group-data-[sidebar=small]:hidden overflow-hidden text-new-500">
-                            <h6 className="font-medium truncate text-sidebar-text-active">
-                              {session.user.name ?? `Jason Statham`}
-                            </h6>
-                            <p className="text-menu-title text-14">
-                              ID: 150001
-                            </p>
-                          </div>
-                          <div className="shrink-0 text-sidebar-text group-data-[sidebar=icon]:hidden group-data-[sidebar=small]:hidden group-data-[sidebar=medium]:hidden">
-                            <ChevronDown className="size-4" />
-                          </div>
-                        </DropdownButton>
-                        <DropdownMenu menuClass="z-50 p-5 bg-white rounded-md shadow-lg !w-64 !left-3">
-                          <div className="flex items-center gap-2">
-                            <Image
-                              src={user17}
-                              alt="user"
-                              className="rounded-full size-10"
-                            />
-                            <div>
-                              <h6>Hello</h6>
-                              <p>
-                                <Link href="#!" className="link link-primary">
-                                  {session.user.email ?? ` hello@example.com`}
-                                </Link>
-                              </p>
-                            </div>
-                          </div>
-                          <div className="pt-2 mt-3 border-t border-gray-200 dark:border-dark-800">
-                            <ul>
-                              <li>
-                                <Link
-                                  href="#"
-                                  className="inline-block py-2 text-gray-500 dark:text-dark-500 before:hidden ltr:text-left rtl:text-right link hover:text-primary-500 dark:hover:text-primary-500">
-                                  <BellDot className="inline-block mr-2 size-4" />{' '}
-                                  Profile Activity
-                                </Link>
-                              </li>
-                              <li>
-                                <Link
-                                  href="#"
-                                  className="inline-block py-2 text-gray-500 dark:text-dark-500 before:hidden ltr:text-left rtl:text-right link hover:text-primary-500 dark:hover:text-primary-500">
-                                  <Presentation className="inline-block mr-2 size-4" />{' '}
-                                  Manage Projects
-                                </Link>
-                              </li>
-                              <li>
-                                <Link
-                                  href="#"
-                                  className="inline-block py-2 text-gray-500 dark:text-dark-500 before:hidden ltr:text-left rtl:text-right link hover:text-primary-500 dark:hover:text-primary-500">
-                                  <Settings className="inline-block mr-2 size-4" />{' '}
-                                  Account Settings
-                                </Link>
-                              </li>
-                              <li>
-                                <Link
-                                  href="#"
-                                  className="inline-block py-2 text-gray-500 dark:text-dark-500 before:hidden ltr:text-left rtl:text-right link hover:text-primary-500 dark:hover:text-primary-500">
-                                  <Headset className="inline-block mr-2 size-4" />{' '}
-                                  Help Center
-                                </Link>
-                              </li>
-                              <li>
-                                <Link
-                                  href="#"
-                                  className="inline-block py-2 text-gray-500 dark:text-dark-500 before:hidden ltr:text-left rtl:text-right link hover:text-primary-500 dark:hover:text-primary-500">
-                                  <Gem className="inline-block mr-2 size-4" />{' '}
-                                  Upgrade Plan
-                                </Link>{' '}
-                              </li>
-                            </ul>
-                          </div>
-                          <div className="pt-2 mt-3 border-t border-gray-200 dark:border-dark-800">
-                            <Link
-                              href="/auth/signin-basic"
-                              className="!px-0 !py-1.5 before:hidden link link-primary"
-                              onClick={() =>
-                                signOut({ callbackUrl: '/auth/signin-basic' })
-                              }>
-                              <LogOut className="inline-block mr-2 size-4" />{' '}
-                              Log Out
-                            </Link>
-                          </div>
-                        </DropdownMenu>
-                      </Dropdown>
-                    </div>
-                  </div>
                 </div>
 
                 <div className="fixed top-0 bottom-0 left-0 w-20 bg-white bg-light hidden group-data-[layout=doulcolumn]:block" />
@@ -457,7 +345,6 @@ const Sidebar = ({ searchSidebar, isSidebarOpen, toggleSidebar }) => {
         )}
       </>
     )
-  }
 }
 
 export default Sidebar

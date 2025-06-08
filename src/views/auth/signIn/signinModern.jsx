@@ -50,11 +50,11 @@ const SigninBasic = () => {
       return
     }
     showAlert(
-      `You've successfully signed in to Domiex!`,
+      `You've successfully signed in to CNVSG!`,
       'bg-green-100 text-green-500'
     )
     setTimeout(() => {
-      router.push('/dashboards/ecommerce')
+      router.push('/dashboards')
     }, 1000)
   }
 

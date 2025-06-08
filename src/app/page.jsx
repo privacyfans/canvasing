@@ -8,7 +8,7 @@ import { changeSettingModalOpen } from '@src/slices/layout/reducer'
 import { useSession } from 'next-auth/react'
 import { useDispatch } from 'react-redux'
 
-import DashboardsPage from './(layout)/dashboards/ecommerce/page'
+import DashboardsPage from './(layout)/dashboards/page'
 import DefaultLayout from './(layout)/layout'
 
 export default function Home() {
@@ -17,9 +17,9 @@ export default function Home() {
   const { status } = useSession()
   useEffect(() => {
     if (status === 'unauthenticated') {
-      router.push('/auth/signin-basic')
+      router.push('/auth/signin')
     } else {
-      router.push('/dashboards/ecommerce')
+      router.push('/dashboards')
       setTimeout(() => {
         dispatch(changeSettingModalOpen(true))
       }, 1000)

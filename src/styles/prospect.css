@@ -1,0 +1,87 @@
+/* src/styles/prospect.css - Tambahkan ke globals.css atau import di komponen */
+
+/* Button styles - tambahkan ke Tailwind config atau globals.css */
+.btn {
+  @apply inline-flex items-center px-4 py-2 text-sm font-medium rounded-md transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2;
+}
+
+.btn-primary {
+  @apply bg-blue-600 text-white hover:bg-blue-700 focus:ring-blue-500;
+}
+
+.btn-red {
+  @apply bg-red-600 text-white hover:bg-red-700 focus:ring-red-500;
+}
+
+.btn-sub-gray {
+  @apply bg-gray-200 text-gray-700 hover:bg-gray-300 focus:ring-gray-500;
+}
+
+/* Custom primary colors - tambahkan ke tailwind.config.js */
+.text-primary-600 {
+  color: #2563eb;
+}
+
+.bg-primary-100 {
+  background-color: #dbeafe;
+}
+
+.bg-primary-600 {
+  background-color: #2563eb;
+}
+
+.border-primary-600 {
+  border-color: #2563eb;
+}
+
+.focus\:ring-primary-500:focus {
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5);
+}
+
+/* Form input styles */
+.form-input {
+  @apply block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm;
+}
+
+/* Loading spinner */
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Responsive table */
+.table-container {
+  @apply overflow-x-auto;
+}
+
+.table-container table {
+  @apply min-w-full;
+}
+
+/* Toast notifications positioning */
+.toast-container {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* Debug panel - remove in production */
+.debug-panel {
+  @apply bg-yellow-50 border border-yellow-200 rounded-lg p-3 text-xs mb-4;
+}
+
+.debug-panel strong {
+  @apply font-semibold;
+}

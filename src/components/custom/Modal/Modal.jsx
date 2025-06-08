@@ -95,10 +95,10 @@ const Modal = ({
         />
         {/* Modal container */}
         <div
-          className={`modal  ${position} ${isAnimating ? 'show' : ''}`}
+          className={`modal  modal-${position} ${isAnimating ? 'show' : ''}`}
           onClick={handleOverlayClick}
           id={id}>
-          <div className={`modal-wrap ${size} ${position}`} ref={modalRef}>
+          <div className={`modal-wrap ${size} modal-${position}`} ref={modalRef}>
             {/* Modal header */}
             {title && (
               <ModalHeader title={title} onClose={closeWithAnimation} />

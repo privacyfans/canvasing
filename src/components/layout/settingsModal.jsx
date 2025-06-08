@@ -103,7 +103,7 @@ const SettingsModal = ({ handleCloseModal }) => {
         isOpen={isSettingModalOpen}
         onClose={handleCloseModal}
         position="modal-center"
-        title="Domiex Customize"
+        title="CNVSG Customize"
         id="toolsAppsModal"
         size="modal-xl"
         contentClass="model-content"

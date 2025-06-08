@@ -22,7 +22,7 @@ export default function Layout({ children }) {
   useEffect(() => {
     // Redirect to login if not authenticated
     if (status === 'unauthenticated') {
-      router.push('/auth/signin-basic')
+      router.push('/auth/signin')
     }
   }, [status, router])
 
@@ -148,28 +148,28 @@ export default function Layout({ children }) {
       setSearchSidebar(menu)
     }
   }
-  useEffect(() => {
-    let timer
+  // useEffect(() => {
+  //   let timer
 
-    if (typeof window !== 'undefined') {
-      // Check if page was refreshed by checking sessionStorage
-      const isPageRefreshed = sessionStorage.getItem('isRefreshed')
-      if (!isPageRefreshed) {
-        sessionStorage.setItem('isRefreshed', 'true')
-      } else {
-        if (window.innerWidth >= 768) {
-          timer = setTimeout(() => {
-            dispatch(changeSettingModalOpen(true))
-          }, 500) // Delay to show modal after a short timeout
-        }
-      }
-    }
-    // Cleanup the timeout if the component is unmounted or the effect is cleaned up
-    return () => {
-      clearTimeout(timer)
-      sessionStorage.removeItem('isRefreshed')
-    }
-  }, [dispatch])
+  //   if (typeof window !== 'undefined') {
+  //     // Check if page was refreshed by checking sessionStorage
+  //     const isPageRefreshed = sessionStorage.getItem('isRefreshed')
+  //     if (!isPageRefreshed) {
+  //       sessionStorage.setItem('isRefreshed', 'true')
+  //     } else {
+  //       if (window.innerWidth >= 768) {
+  //         timer = setTimeout(() => {
+  //           dispatch(changeSettingModalOpen(true))
+  //         }, 500) // Delay to show modal after a short timeout
+  //       }
+  //     }
+  //   }
+  //   // Cleanup the timeout if the component is unmounted or the effect is cleaned up
+  //   return () => {
+  //     clearTimeout(timer)
+  //     sessionStorage.removeItem('isRefreshed')
+  //   }
+  // }, [dispatch])
   const sidebarColors =
     (typeof document !== 'undefined' &&
       localStorage.getItem('data-sidebar-colors')) ||

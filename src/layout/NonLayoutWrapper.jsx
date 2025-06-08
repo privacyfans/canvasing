@@ -14,8 +14,8 @@ export default function NonLayoutWrapper({ children }) {
 
   useEffect(() => {
     document.title = route
-      ? `${route.title} | Domiex - Next JS Admin & Dashboard Template`
-      : 'Domiex - Next JS Admin & Dashboard Template'
+      ? `${route.title} | CNVSG`
+      : 'CNVSG'
   }, [route])
 
   return <Layout2>{children}</Layout2>

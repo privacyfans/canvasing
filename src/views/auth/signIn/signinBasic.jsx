@@ -10,7 +10,7 @@ import logoWhite from '@assets/images/logo-white.png'
 import LogoMain from '@assets/images/main-logo.png'
 import Google from '@assets/images/others/google.png'
 import { Eye, EyeOff } from 'lucide-react'
-import { signIn } from 'next-auth/react'
+import { signIn, getSession } from 'next-auth/react'
 import { toast } from 'react-toastify'
 
 export default function LoginPage() {
@@ -20,70 +20,137 @@ export default function LoginPage() {
   const [isLoading, setIsLoading] = useState(false)
   const router = useRouter()
 
-  // Handle form submission
   const handleSubmit = async (e) => {
-    e.preventDefault()
+  e.preventDefault()
 
-    if (!username || !password || !username.trim() || !password.trim()) {
-      toast.error('Username dan password diperlukan.')
-      return
-    }
-
-    setIsLoading(true)
-
-    try {
-      const result = await signIn('credentials', {
-        redirect: false,
-        username,
-        password,
-        callbackUrl: '/dashboards/ecommerce',
-      })
-
-      if (result?.ok) {
-        toast.success('Login berhasil!')
-        router.push(result.url || '/dashboards/ecommerce')
-      } else {
-        toast.error(
-          result?.error || 'Login gagal! Silakan periksa kredensial Anda.'
-        )
-      }
-    } catch (error) {
-      console.error('Login error:', error)
-      toast.error('Terjadi kesalahan. Silakan coba lagi.')
-    } finally {
-      setIsLoading(false)
-    }
+  if (!username || !password || !username.trim() || !password.trim()) {
+    toast.error('Username dan password diperlukan.')
+    return
   }
 
-  // Handle demo login (bisa disesuaikan dengan kebutuhan)
+  setIsLoading(true)
+
+  try {
+    console.log('=== LOGIN ATTEMPT ===')
+    console.log('Username:', username)
+    console.log('Environment check:', {
+      NEXTAUTH_URL: process.env.NEXTAUTH_URL,
+      API_URL: process.env.NEXT_PUBLIC_API_URL
+    })
+    
+    const result = await signIn('credentials', {
+      redirect: false,
+      username: username.trim(), // Trim whitespace
+      password: password.trim(), // Trim whitespace
+      callbackUrl: '/dashboards',
+    })
+
+    console.log('=== SIGNIN RESULT ===')
+    console.log('Result:', result)
+
+    if (result?.ok) {
+      console.log('SignIn successful, checking session...')
+      
+      const session = await getSession()
+      console.log('Session after login:', session)
+      
+      if (session?.error) {
+        console.log('Session error after login:', session.error)
+        
+        // Handle specific session errors
+        if (session.error === 'RefreshAccessTokenError') {
+          toast.error('Token kedaluwarsa. Silakan login ulang.')
+        } else if (session.error === 'NoRefreshToken') {
+          toast.error('Sesi tidak valid. Silakan login ulang.')
+        } else {
+          toast.error('Terjadi masalah dengan autentikasi. Silakan coba lagi.')
+        }
+        return
+      }
+      
+      toast.success('Login berhasil!')
+      router.push('/dashboards')
+    } else {
+      console.error('SignIn failed:', result)
+      
+      // Handle different error types
+      if (result?.error === 'CredentialsSignin') {
+        toast.error('Username atau password salah.')
+      } else if (result?.error === 'Configuration') {
+        toast.error('Konfigurasi autentikasi bermasalah. Periksa pengaturan server.')
+      } else if (result?.error === 'AccessDenied') {
+        toast.error('Akses ditolak.')
+      } else if (result?.error?.includes('URL')) {
+        toast.error('Konfigurasi URL tidak valid. Hubungi administrator.')
+      } else {
+        toast.error('Login gagal: ' + (result?.error || 'Kesalahan tidak diketahui'))
+      }
+    }
+  } catch (error) {
+    console.error('Login error:', error)
+    
+    // More specific error handling
+    if (error.message?.includes('URL')) {
+      toast.error('Konfigurasi URL tidak valid. Periksa pengaturan aplikasi.')
+    } else if (error.message?.includes('fetch')) {
+      toast.error('Tidak dapat terhubung ke server. Periksa koneksi internet.')
+    } else {
+      toast.error('Terjadi kesalahan: ' + error.message)
+    }
+  } finally {
+    setIsLoading(false)
+  }
+}
+
+  // Handle demo login
   const handleDemoLogin = async () => {
-    const demoUsername = 'kcukc.admin'
-    const demoPassword = '123456'
+  const demoUsername = 'kcukc.admin'
+  const demoPassword = '123456'
 
-    setUsername(demoUsername)
-    setPassword(demoPassword)
+  setUsername(demoUsername)
+  setPassword(demoPassword)
+  setIsLoading(true)
 
-    try {
-      const result = await signIn('credentials', {
-        redirect: false,
-        username: demoUsername,
-        password: demoPassword,
-        callbackUrl: '/dashboards/ecommerce',
-      })
+  try {
+    console.log('=== DEMO LOGIN ATTEMPT ===')
+    
+    const result = await signIn('credentials', {
+      redirect: false,
+      username: demoUsername,
+      password: demoPassword,
+      callbackUrl: '/dashboards',
+    })
 
-      if (result?.ok) {
-        toast.success('Login demo berhasil!')
-        router.push(result.url || '/dashboards/ecommerce')
-      } else {
-        toast.error(
-          result?.error || 'Login demo gagal! Silakan periksa kredensial demo.'
-        )
+    console.log('Demo login result:', result)
+
+    if (result?.ok) {
+      const session = await getSession()
+      console.log('Demo session:', session)
+      
+      if (session?.error) {
+        console.log('Session error after demo login:', session.error)
+        toast.error('Terjadi masalah dengan autentikasi demo.')
+        return
       }
-    } catch (error) {
-      console.error('Demo login failed', error)
-      toast.error('Terjadi kesalahan saat login demo.')
+      
+      toast.success('Login demo berhasil!')
+      router.push('/dashboards')
+    } else {
+      console.error('Demo login failed:', result)
+      toast.error(result?.error || 'Login demo gagal!')
     }
+  } catch (error) {
+    console.error('Demo login failed', error)
+    
+    if (error.message?.includes('URL')) {
+      toast.error('Konfigurasi aplikasi bermasalah. Hubungi administrator.')
+    } else {
+      toast.error('Terjadi kesalahan saat login demo: ' + error.message)
+    }
+  } finally {
+    setIsLoading(false)
   }
+}
 
   return (
     <div className="relative flex items-center justify-center min-h-screen py-12 from-sky-100 dark:from-sky-500/15 ltr:bg-gradient-to-l rtl:bg-gradient-to-r via-green-50 dark:via-green-500/10 to-pink-50 dark:to-pink-500/10">
@@ -128,6 +195,7 @@ export default function LoginPage() {
                       onChange={(e) => setUsername(e.target.value)}
                       className="w-full form-input"
                       placeholder="Masukkan username Anda"
+                      disabled={isLoading}
                     />
                   </div>
                   <div className="col-span-12">
@@ -142,11 +210,13 @@ export default function LoginPage() {
                         onChange={(e) => setPassword(e.target.value)}
                         className="w-full ltr:pr-8 rtl:pl-8 form-input"
                         placeholder="Masukkan password Anda"
+                        disabled={isLoading}
                       />
                       <button
                         type="button"
                         onClick={() => setShowPassword((prev) => !prev)}
-                        className="absolute inset-y-0 flex items-center text-gray-500 ltr:right-3 rtl:left-3 focus:outline-hidden dark:text-dark-500">
+                        className="absolute inset-y-0 flex items-center text-gray-500 ltr:right-3 rtl:left-3 focus:outline-hidden dark:text-dark-500"
+                        disabled={isLoading}>
                         {showPassword ? (
                           <Eye className="size-5" />
                         ) : (
@@ -162,6 +232,7 @@ export default function LoginPage() {
                           id="checkboxBasic1"
                           className="input-check input-check-primary"
                           type="checkbox"
+                          disabled={isLoading}
                         />
                         <label
                           htmlFor="checkboxBasic1"
@@ -193,7 +264,7 @@ export default function LoginPage() {
                 </p>
               </div>
 
-              {/* Hanya untuk demo */}
+              {/* Demo login section */}
               <div className="flex items-center gap-3 mt-5">
                 <div className="grow">
                   <h6 className="mb-1">Demo User</h6>
@@ -206,8 +277,9 @@ export default function LoginPage() {
                 </div>
                 <button
                   className="shrink-0 btn btn-sub-gray"
-                  onClick={handleDemoLogin}>
-                  Login Demo
+                  onClick={handleDemoLogin}
+                  disabled={isLoading}>
+                  {isLoading ? 'Loading...' : 'Login Demo'}
                 </button>
               </div>
             </div>

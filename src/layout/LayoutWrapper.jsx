@@ -13,8 +13,8 @@ export default function LayoutWrapper({ children }) {
 
   useEffect(() => {
     document.title = route
-      ? `${route.title} | Domiex - Next JS Admin & Dashboard Template`
-      : 'Domiex - Next JS Admin & Dashboard Template'
+      ? `${route.title} | CNVSG`
+      : 'CNVSG'
   }, [route])
 
   return <Layout>{children}</Layout>

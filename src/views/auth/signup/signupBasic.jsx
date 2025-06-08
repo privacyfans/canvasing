@@ -275,7 +275,7 @@ export default function SignupPage() {
                     width={16}
                     height={16}
                     onClick={() =>
-                      signIn('github', { callbackUrl: '/dashboards/ecommerce' })
+                      signIn('github', { callbackUrl: '/dashboards' })
                     }
                   />
                   SignUp Vie Google

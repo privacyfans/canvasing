@@ -15,9 +15,9 @@ export function generateViewport() {
 }
 export async function generateMetadata() {
   return {
-    title: 'Domiex - Next JS Admin & Dashboard Template',
+    title: 'CNVSG',
     description:
-      'Domiex is a Premium Admin & Dashboard Template that supports 22 frameworks including HTML, Next TS, Next JS, React JS, React TS, Angular 19, ASP.Net Core 9 + Angular 19, Laravel 12, ASP.Net Core 9, MVC 5, Blazor, Node JS, Django, Flask, PHP, CakePHP, Symfony, CodeIgniter, Ajax & Yii and more. Perfect for developers and businesses.',
+      'CNVSG',
     keywords: [
       'admin dashboard template',
       'admin template',
@@ -38,15 +38,15 @@ export async function generateMetadata() {
       'CodeIgniter',
     ],
     openGraph: {
-      title: 'Domiex - Next JS Admin & Dashboard Template',
+      title: 'CNVSG',
       description:
         'Versatile and responsive admin templates supporting 22 frameworks. Includes features like charts, RTL, LTR, dark light modes, and more',
       type: 'website',
     },
     twitter: {
-      title: 'Domiex - Next JS Admin & Dashboard Template',
+      title: 'CNVSG',
       description:
-        'Explore Domiex, an admin & dashboard template offering support for 22 frameworks. Perfect for building professional, scalable web apps',
+        '',
     },
   }
 }

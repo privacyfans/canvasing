@@ -34,7 +34,7 @@ const AccountDeactivationModern = () => {
                   Account Deactivation
                 </h4>
                 <p className="mb-5 text-center text-white/75">
-                  Domiex Security and Privacy
+                  CNVSG Security and Privacy
                 </p>
                 <div className="flex gap-3 mb-3">
                   <div className="text-white shrink-0">

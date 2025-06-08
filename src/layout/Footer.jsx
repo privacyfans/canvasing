@@ -3,7 +3,7 @@
 import Link from 'next/link'
 
 const Footer = () => {
-  const brandName = process.env.NEXT_PUBLIC_BRAND_NAME || 'SRBThemes'
+  const brandName = process.env.NEXT_PUBLIC_BRAND_NAME || 'posfin'
 
   return (
     <>
@@ -19,25 +19,11 @@ const Footer = () => {
                     About
                   </Link>
                 </li>
-                <li>
-                  <Link
-                    href="#!"
-                    className="font-medium text-gray-500 transition duration-300 ease-linear dark:text-dark-500 hover:text-primary-500 dark:hover:text-primary-500">
-                    Support
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="#!"
-                    className="font-medium text-gray-500 transition duration-300 ease-linear dark:text-dark-500 hover:text-primary-500 dark:hover:text-primary-500">
-                    Purchase Now
-                  </Link>
-                </li>
               </ul>
             </div>
             <div className="text-center text-gray-500 dark:text-dark-500 ltr:lg:text-right rtl:lg:text-left">
               <div>
-                &copy; {new Date().getFullYear()} Domiex. Crafted by
+                &copy; {new Date().getFullYear()} CNVSG by
                 <Link href="#!" className="ml-1 font-semibold">
                   {brandName}
                 </Link>
